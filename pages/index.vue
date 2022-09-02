@@ -10,3 +10,17 @@ export default {
 
 }
 </script>
+
+
+<style lang="scss" scoped>
+div  {
+
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 48px;
+  }
+}
+</style>
