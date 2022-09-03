@@ -11,10 +11,8 @@
       <div class="menu">
         <!-- For Phones -->
         <div class="mobile" v-if="isMobile">
-          <!-- <XCircleIcon color="white" v-if="isOpen" @click="toggleMenu" /> -->
-          <span v-if="isOpen" @click="toggleMenu">close</span>
-          <!-- <MenuIcon color="white" v-else @click="toggleMenu" /> -->
-          <span v-else @click="toggleMenu">open</span>
+          <XIcon color="white" v-if="isOpen" @click="toggleMenu" />
+          <MenuAlt3Icon color="white" v-else @click="toggleMenu" />
         </div>
         <!-- For Desktops -->
         <div class="desktop" v-else>
@@ -29,13 +27,13 @@
 </template>
 
 <script>
-// import { MenuIcon, XCircleIcon } from '@vue-hero-icons/outline'
+import { MenuAlt3Icon, XIcon } from '@vue-hero-icons/outline'
 import Menu from "./Menu.vue"
 export default {
   components: {
     Menu,
-    // MenuIcon,
-    // XCircleIcon
+    MenuAlt3Icon,
+    XIcon
   },
   data(){
     return {
