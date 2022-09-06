@@ -7,12 +7,11 @@
         <NuxtLink :to="'/products'+product.slug">Learn More</NuxtLink>
       </div>
       <div class="_img">
-        <img width="400px" :src="product.thumbnail" :alt="product.title">
+        <img width="586px" :src="product.thumbnail" :alt="product.title">
       </div>
       <div class="_links">
         <NuxtLink to="/products">See all our products</NuxtLink>
       </div>
-      {{product}}
     </div>
   </div>
 </template>
@@ -35,6 +34,57 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.products {
+  display: block;
+  padding: 0 1rem;
 
+  .product {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ._first {
+      width: 400px;
+      font-size: 20px;
+      text-align: center;
+
+      h2, p, a {
+        padding-bottom: 24px;
+      }
+
+      h2 {
+        font-weight: 900;
+        font-size: 60px;
+
+        color: $secondary;
+        text-shadow: 1px 1px $light;
+      }
+
+      p {
+        font-weight: 300;
+        line-height: 24px;
+      }
+
+      a {
+        display: block;
+        color: $light;
+        background: $secondary;
+        width: 200px;
+        height: 50px;
+        padding: 0.9rem;
+        margin: auto;
+        text-decoration: none;
+      }
+    }
+
+    ._links {
+      a {
+        font-size: 20px;
+        color: $light;
+      }
+    }
+  }
+}
 </style>
