@@ -95,7 +95,6 @@ export default {
   @media screen and (max-width: $medium) {
     .content {
       display: block;
-      height: 500px;
 
       ._img {
         display: none;
