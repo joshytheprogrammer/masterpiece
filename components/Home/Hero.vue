@@ -3,7 +3,6 @@
     <div class="content" :style="'background-image: url('+backgroundImage+');'">
       <div class="_pitch">
         <h1>Enjoy our <span>Masterpiece</span></h1>
-        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cum numquam nulla commodi quisquam maxime quis, dignissimos nesciunt eius est non fugiat, nam laboriosam, qui ipsa quaerat repellendus vel voluptatum?</p> -->
       </div>
     </div>
   </div>
