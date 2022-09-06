@@ -78,7 +78,7 @@ export default {
     }
 
     ._img {
-      max-width: 500px;
+      max-width: 528px;
 
       img {
         width: 100%;
@@ -88,10 +88,12 @@ export default {
     }
 
     ._links {
+      padding: 1rem;
       font-weight: 700;
       font-size: 18px;
 
       a {
+        display: block;
         text-decoration: none;
         color: inherit;
 
@@ -111,6 +113,15 @@ export default {
         h2 {
           font-size: 56px;
         }
+      }
+
+      ._img {
+        max-width: 386px;
+      }
+
+
+      ._links {
+        font-size: 16px;
       }
     }
   }
