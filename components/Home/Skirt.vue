@@ -59,12 +59,11 @@ export default {
         font-size: 60px;
 
         color: $secondary;
-        text-shadow: 1px 1px $light;
+        text-shadow: 1px 1px $dark;
       }
 
       p {
         font-weight: 300;
-        line-height: 24px;
       }
 
       a {
@@ -103,6 +102,11 @@ export default {
     .product {
       ._first {
         width: 100%;
+        font-size: 18px;
+
+        h2 {
+          font-size: 56px;
+        }
       }
     }
   }

@@ -69,7 +69,7 @@ export default {
         span {
           color: $secondary;
 
-          text-shadow: 2px 3px 1px $light;
+          text-shadow: 2px 3px 1px $dark;
         }
       }
     }
