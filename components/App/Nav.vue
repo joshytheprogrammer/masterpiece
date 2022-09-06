@@ -66,7 +66,7 @@ nav {
   top: 0;
   z-index: 12;
   width: 100%;
-  background: $dark;
+  background: $trans-dark;
 
   .navbar {
     display: flex;

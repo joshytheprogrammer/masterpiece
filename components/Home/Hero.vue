@@ -46,7 +46,7 @@ export default {
     background-repeat: no-repeat;
     background-color: $dark;
     object-fit: fill;
-    height: 700px;
+    height: 900px;
     max-width: 100%;
     color: $light;
 

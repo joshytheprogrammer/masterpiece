@@ -26,8 +26,8 @@ export default {
 
   .body {
     overflow-x: hidden;
-    margin-top: 100px;
-    min-height: 100vh;
+    // margin-top: 100px;
+    min-height: 200vh;
   }
 }
 </style>
