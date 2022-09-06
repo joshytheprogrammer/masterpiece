@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <div class="content">
+    <div class="content" :style="'background-image: url('+backgroundImage+');'">
       <div class="_pitch">
         <h1>Masterpiece</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cum numquam nulla commodi quisquam maxime quis, dignissimos nesciunt eius est non fugiat, nam laboriosam, qui ipsa quaerat repellendus vel voluptatum?</p>
@@ -11,7 +11,31 @@
 
 <script>
 export default {
+  data() {
+    return {
+      images: [
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_crop,h_968/v1662190088/masterpiece/MODO7364_hn0pra.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662457782/masterpiece/MODO7289_zxypmq.jpg"
+      ],
+      backgroundImage: "",
+      currentNo: 0
+    }
+  },
+  mounted() {
+    this.doSlideShow()
 
+    setInterval(() => {
+      this.doSlideShow()
+    }, 5000)
+  },
+  methods: {
+    doSlideShow() {
+      if(this.currentNo > 1) { this.currentNo = 0}
+
+      this.backgroundImage = this.images[this.currentNo]
+
+      this.currentNo++
+    },
+  }
 }
 </script>
 
@@ -19,7 +43,6 @@ export default {
 .hero {
   .content {
     padding: 1rem;
-    background-image: url("https://res.cloudinary.com/dsgvwxygr/image/upload/v1662190088/masterpiece/MODO7364_hn0pra.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: $dark;
@@ -48,7 +71,7 @@ export default {
       }
 
       h1 {
-        font-size: 64px;
+        font-size: 5.125em;
         font-weight: bold;
       }
 
@@ -79,11 +102,6 @@ export default {
   @media screen and (max-width: $medium) {
     .content {
       display: block;
-      background-color: $light;
-      background-image: url('https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_600,w_1080/v1662190088/masterpiece/MODO7364_hn0pra.jpg');
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      object-fit: contain;
       height: 500px;
 
       ._img {
