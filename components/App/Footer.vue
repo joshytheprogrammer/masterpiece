@@ -57,11 +57,21 @@ footer {
     color: $light;
 
     h2 {
+      padding: 1rem 0;
       font-size: 28px;
     }
 
     p {
       font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: $medium) {
+    display: block;
+
+    .finisher {
+      text-align: left;
+      padding: 18px 0;
     }
   }
 }
