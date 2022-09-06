@@ -95,7 +95,14 @@ export default {
       a {
         text-decoration: none;
         color: inherit;
+      }
+    }
+  }
 
+  @media screen and (max-width: $m-large) {
+    .product {
+      ._first {
+        width: 100%;
       }
     }
   }
