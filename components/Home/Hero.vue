@@ -81,7 +81,7 @@ export default {
         height: 100%;
 
         h1 {
-          font-size: 48px;
+          font-size: 56px;
         }
 
         p {
