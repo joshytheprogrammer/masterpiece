@@ -21,8 +21,8 @@ export default {
 
 <style lang="scss">
 .app {
-  background: $dark;
-  color: $light;
+  background: $light;
+  color: $dark;
 
   .body {
     overflow-x: hidden;

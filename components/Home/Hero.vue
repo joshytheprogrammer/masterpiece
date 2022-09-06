@@ -1,9 +1,6 @@
 <template>
   <div class="hero">
     <div class="content">
-      <div class="_img">
-        <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662190088/masterpiece/MODO7364_hn0pra.jpg" alt="hero-img">
-      </div>
       <div class="_pitch">
         <h1>Masterpiece</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cum numquam nulla commodi quisquam maxime quis, dignissimos nesciunt eius est non fugiat, nam laboriosam, qui ipsa quaerat repellendus vel voluptatum?</p>
@@ -21,20 +18,21 @@ export default {
 <style lang="scss" scoped>
 .hero {
   .content {
-    // border: 1px solid $light;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 1rem;
+    padding: 1rem;
+    background-image: url("https://res.cloudinary.com/dsgvwxygr/image/upload/v1662190088/masterpiece/MODO7364_hn0pra.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: $dark;
+    object-fit: fill;
+    height: 700px;
+    max-width: 100%;
+    color: $light;
 
-    ._img {
-      display: block;
-
-      img {
-        max-width: 100%;
-        object-fit: contain;
-        // border: 1px solid $light;
-      }
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
     ._pitch {
       display: flex;
@@ -50,12 +48,12 @@ export default {
       }
 
       h1 {
-        font-size: 60px;
+        font-size: 64px;
         font-weight: bold;
       }
 
       p {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 400;
       }
     }
