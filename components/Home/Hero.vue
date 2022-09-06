@@ -2,8 +2,8 @@
   <div class="hero">
     <div class="content" :style="'background-image: url('+backgroundImage+');'">
       <div class="_pitch">
-        <h1>Masterpiece</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cum numquam nulla commodi quisquam maxime quis, dignissimos nesciunt eius est non fugiat, nam laboriosam, qui ipsa quaerat repellendus vel voluptatum?</p>
+        <h1>Enjoy our <span>Masterpiece</span></h1>
+        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cum numquam nulla commodi quisquam maxime quis, dignissimos nesciunt eius est non fugiat, nam laboriosam, qui ipsa quaerat repellendus vel voluptatum?</p> -->
       </div>
     </div>
   </div>
@@ -53,8 +53,6 @@ export default {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     justify-content: center;
 
     ._pitch {
@@ -64,20 +62,16 @@ export default {
 
       text-align: center;
 
-      padding: 1rem;
-
-      h1, p {
-        padding: 1rem 0;
-      }
 
       h1 {
         font-size: 5.125em;
         font-weight: bold;
-      }
 
-      p {
-        font-size: 24px;
-        font-weight: 400;
+        span {
+          color: $secondary;
+
+          text-shadow: 2px 3px 1px $light;
+        }
       }
     }
   }

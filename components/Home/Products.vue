@@ -7,7 +7,7 @@
         <NuxtLink :to="'/products'+product.slug">Learn More</NuxtLink>
       </div>
       <div class="_img">
-        <img width="586px" :src="product.thumbnail" :alt="product.title">
+        <img :src="product.thumbnail" :alt="product.title">
       </div>
       <div class="_links">
         <NuxtLink to="/products">See all our products</NuxtLink>
@@ -71,18 +71,31 @@ export default {
         display: block;
         color: $light;
         background: $secondary;
-        width: 200px;
-        height: 50px;
-        padding: 0.9rem;
+        width: fit-content;
+        padding: 0.9rem 1.4rem;
         margin: auto;
         text-decoration: none;
       }
     }
 
+    ._img {
+      max-width: 500px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
     ._links {
+      font-weight: 700;
+      font-size: 18px;
+
       a {
-        font-size: 20px;
-        color: $light;
+        text-decoration: none;
+        color: inherit;
+
       }
     }
   }
