@@ -37,7 +37,7 @@ export default {
 <style lang="scss" scoped>
 .products {
   display: block;
-  padding: 0 1rem;
+  padding: 1rem;
 
   .product {
     width: 100%;
@@ -122,6 +122,27 @@ export default {
 
       ._links {
         font-size: 16px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $medium){
+    .product {
+      flex-direction: column-reverse;
+
+      ._first {
+        padding-bottom: 5rem;
+      }
+
+      ._img {
+        img {
+          height: 450px;
+          object-fit: fill;
+        }
+      }
+
+      ._links {
+        display: none;
       }
     }
   }

@@ -83,10 +83,6 @@ export default {
         h1 {
           font-size: 56px;
         }
-
-        p {
-          font-size: 16px;
-        }
       }
     }
 
@@ -98,6 +94,12 @@ export default {
 
       ._img {
         display: none;
+      }
+
+      ._pitch {
+        h1 {
+          font-size: 48px;
+        }
       }
     }
   }
