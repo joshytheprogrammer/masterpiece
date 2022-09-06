@@ -43,7 +43,7 @@
   @media screen and (max-width: $medium) {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     padding: 12px 0;
 
     a {
