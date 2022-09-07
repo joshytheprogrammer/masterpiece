@@ -12,14 +12,13 @@
 export default {
   data() {
     return {
-      images: [
-        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_crop,h_968/v1662190088/masterpiece/MODO7364_hn0pra.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662457782/masterpiece/MODO7289_zxypmq.jpg"
-      ],
+      images: [],
       backgroundImage: "",
       currentNo: 0
     }
   },
   mounted() {
+    this.loadImages()
     this.doSlideShow()
 
     setInterval(() => {
@@ -28,12 +27,30 @@ export default {
   },
   methods: {
     doSlideShow() {
-      if(this.currentNo > 1) { this.currentNo = 0}
+      if(this.currentNo > this.images.length) { this.currentNo = 0}
 
       this.backgroundImage = this.images[this.currentNo]
 
       this.currentNo++
     },
+    loadImages() {
+      let desktopImages = [
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_crop,h_968/v1662190088/masterpiece/MODO7364_hn0pra.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662457782/masterpiece/MODO7289_zxypmq.jpg"
+      ]
+
+      let mobileImages = [
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662461577/masterpiece/MODO7490_wwv0dw.jpg"
+      ]
+
+      if(this.testMobile) {
+        this.images = desktopImages
+      }else {
+        this.images = mobileImages
+      }
+    },
+    testMobile() {
+      return window.innerWidth > 768
+    }
   }
 }
 </script>
