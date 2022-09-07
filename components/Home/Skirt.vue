@@ -48,7 +48,7 @@ export default {
 <style lang="scss" scoped>
 .skirt {
   display: block;
-  padding: 1rem;
+  padding: 2rem 1rem;
 
   .product {
     width: 100%;

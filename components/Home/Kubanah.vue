@@ -1,7 +1,14 @@
 <template>
   <div class="kubanah">
     <div class="product">
-      Hello World
+      <div class="_img">
+        <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662546173/masterpiece/MODO7446-transformed_mae3nd.png" alt="Kubanah Whiskey">
+      </div>
+      <div class="_first">
+        <h2>Kubanah Whiskey</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit perspiciatis atque. Expedita, pariatur excepturi. Repellat, ducimus fuga cupiditate vero ullam, soluta deleniti saepe quae suscipit esse laborum nisi libero!</p>
+        <!-- <NuxtLink to="/products/skirt-rum">Learn More</NuxtLink> -->
+      </div>
     </div>
   </div>
 </template>
@@ -14,8 +21,52 @@ export default {
 
 <style lang="scss" scoped>
 .kubanah {
-  padding: 1rem;
+  padding: 2rem 1rem;
   background-color: transparent;
   background-image: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
+
+  .product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    ._img {
+
+      img {
+        width: 100%;
+        height: 628px;
+        object-fit: cover;
+        transition: scale 0.5s ease;
+
+        &:hover {
+          scale: 1.1;
+        }
+      }
+    }
+
+    ._first {
+      width: 500px;
+      font-size: 20px;
+      text-align: center;
+      color: $light;
+
+      h2, p, a {
+        padding-bottom: 24px;
+      }
+
+      h2 {
+        font-weight: 900;
+        font-size: 60px;
+
+        color: inherit;
+        text-shadow: 1px 1px $dark;
+      }
+
+      p {
+        font-weight: 400;
+        color: inherit;
+      }
+    }
+  }
 }
 </style>
