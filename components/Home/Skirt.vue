@@ -39,7 +39,7 @@ export default {
   .product {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
     ._first {
@@ -139,6 +139,16 @@ export default {
         img {
           height: 450px;
           object-fit: fill;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $small){
+    .product {
+      ._img {
+        img {
+          height: auto;
         }
       }
     }

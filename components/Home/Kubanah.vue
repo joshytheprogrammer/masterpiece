@@ -100,5 +100,15 @@ export default {
       }
     }
   }
+
+  @media screen and (max-width: $small){
+    .product {
+      ._img {
+        img {
+          height: auto;
+        }
+      }
+    }
+  }
 }
 </style>

@@ -1,8 +1,14 @@
 <template>
   <footer>
     <div class="links">
-      <NuxtLink to="/home">Home</NuxtLink>
-      <NuxtLink to="/find-us">Our locations</NuxtLink>
+      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/about">About</NuxtLink>
+      <NuxtLink to="/products">Products</NuxtLink>
+      <NuxtLink to="/gallery">Gallery</NuxtLink>
+      <NuxtLink to="/contact">Contact</NuxtLink>
+      <!-- <NuxtLink to="/find-us">Our locations</NuxtLink> -->
+    </div>
+    <div class="links">
       <NuxtLink to="/products/kubanah">Kubanah Whiskey</NuxtLink>
       <NuxtLink to="/products/skirt/#rum">Skirt Cafe Rum</NuxtLink>
       <NuxtLink to="/products/skirt/#brandey">Skirt Blended Brandey</NuxtLink>
@@ -35,9 +41,10 @@ footer {
     padding: 18px 0;
 
     a {
-      width: fit-content;
+      padding: 8px 0;
+      width: 100%;
+      text-align: center;
       color: $light;
-      padding: 6px 0;
       display: block;
       text-decoration: none;
 
@@ -78,6 +85,7 @@ footer {
     }
 
     .finisher {
+      width: 100%;
       text-align: center;
       padding: 18px 0;
     }
