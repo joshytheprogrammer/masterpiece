@@ -11,8 +11,10 @@
         <input type="text" class="form-control h" placeholder="Phone">
         <input type="text" class="form-control f" placeholder="Subject">
         <textarea class="form-control text f" placeholder="Message"></textarea>
-        <button>Send Message</button>
+        <button type="submit">Send Message</button>
       </form>
+
+
     </div>
     <div class="hub">
       a
@@ -94,13 +96,24 @@ export default {
 
       textarea.text {
         height: 120px;
+        margin-bottom: 1rem;
+      }
+
+      button {
+        padding: 1rem 2rem;
+        background: $d-secondary;
+        cursor: pointer;
+        border: none;
+        color: $light;
+        font-size: 16px;
+        font-weight: 400;
       }
     }
   }
 
   .hub {
     width: 500px;
-    height: 800px;
+    height: 700px;
     background-color: transparent;
     background-image: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
 
