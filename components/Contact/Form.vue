@@ -180,6 +180,7 @@ export default {
   @media screen and (max-width: $medium){
     .form {
       width: 100%;
+      padding: 2rem 1rem;
 
       h2 {
         font-size: 40px;
