@@ -82,7 +82,7 @@ export default {
 
       h1 {
         font-size: 5.125em;
-        font-weight: bold;
+        font-weight: 900;
 
         span {
           color: $secondary;
