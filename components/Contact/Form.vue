@@ -190,10 +190,6 @@ export default {
       p {
         font-size: 14px;
       }
-
-      form {
-
-      }
     }
 
     .hub {
