@@ -127,12 +127,6 @@ export default {
   @media screen and (max-width: $small) {
     .content {
       background-image: url('https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_900,w_500/v1662190815/masterpiece/MODO7289_qqhhe6.webp');
-
-      ._pitch {
-        h1 {
-          font-size: 40px;
-        }
-      }
     }
   }
 }
