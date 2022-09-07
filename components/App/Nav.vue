@@ -4,6 +4,7 @@
       <!-- The Logo Section -->
       <div class="logo">
         <NuxtLink to="/">
+          <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png" alt="">
           <h2>MASTERPIECE</h2>
         </NuxtLink>
       </div>
@@ -79,7 +80,17 @@ nav {
         text-decoration: none;
         color: $light;
 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+          width: 45px;
+          height: 45px;
+        }
+
         h2 {
+          padding-left: 8px;
           font-size: 36px;
           font-weight: 600;
         }
