@@ -78,6 +78,7 @@ export default {
         height: 40px;
         padding: 2px 4px;
         border-bottom: 1px solid $d-secondary;
+        transition: border .5s ease;
 
         font: {
           size: 16px;
@@ -117,7 +118,12 @@ export default {
         border: none;
         color: $light;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
+        transition: background .5s ease;
+
+        &:hover {
+          background: $dark;
+        }
       }
     }
   }
@@ -155,9 +161,43 @@ export default {
 
   }
 
-  @media screen and (max-width: $medium){
+  @media screen and (max-width: $large){
     .form {
-      
+      max-width: 500px;
+    }
+  }
+
+  @media screen and (max-width: $m-large){
+    .form {
+      max-width: 400px;
+    }
+
+    .hub {
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: $medium){
+    padding: 1rem 0;
+
+    .form {
+      width: 100%;
+
+      h2 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      form {
+
+      }
+    }
+
+    .hub {
+      width: 100%;
     }
   }
 }

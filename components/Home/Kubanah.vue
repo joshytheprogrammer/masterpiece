@@ -30,6 +30,7 @@ export default {
     align-items: center;
 
     ._img {
+      padding: 1rem;
 
       img {
         width: 100%;
