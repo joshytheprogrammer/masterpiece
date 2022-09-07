@@ -178,8 +178,6 @@ export default {
   }
 
   @media screen and (max-width: $medium){
-    padding: 1rem 0;
-
     .form {
       width: 100%;
 
