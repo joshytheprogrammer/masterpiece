@@ -1,13 +1,13 @@
 <template>
   <div class="products">
-    <div class="product" v-for="product in products" :key="product.id">
+    <div class="product">
       <div class="_first">
-        <h2> {{product.title}} </h2>
-        <p> {{product.desc}} </p>
-        <NuxtLink :to="'/products'+product.slug">Learn More</NuxtLink>
+        <h2> Skirt Rum </h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem ipsa cum, vel veniam totam! Iusto officia dolorum quisquam quam? </p>
+        <NuxtLink to="/products/skirt-rum">Learn More</NuxtLink>
       </div>
       <div class="_img">
-        <img :src="product.thumbnail" :alt="product.title">
+        <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662462418/masterpiece/MODO7480-transformed_p30qym.png" alt="Skirt Rum">
       </div>
       <div class="_links">
         <NuxtLink to="/products">See all our products</NuxtLink>
@@ -20,15 +20,26 @@
 export default {
   data() {
     return {
-      products: [
-        {
-          id: 0,
-          title: 'Skirt Rum',
-          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem ipsa cum, vel veniam totam! Iusto officia dolorum quisquam quam?',
-          thumbnail: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662462418/masterpiece/MODO7480-transformed_p30qym.png',
-          slug: '/skirt-rum'
-        }
-      ]
+
+    }
+  },
+  mounted() {
+    this.setAnimation()
+  },
+
+  methods: {
+    setAnimation() {
+      this.$anime({
+        targets: '._links',
+        translateY: 128,
+        duration: 2000,
+      })
+
+      this.$anime({
+        targets: '._img',
+        opacity: [0, 1],
+        duration: 2000,
+      })
     }
   }
 }

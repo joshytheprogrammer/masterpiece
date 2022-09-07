@@ -32,7 +32,9 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: [
+    'nuxt-animejs'
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -57,5 +59,38 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  
+  // Add global page transition
+  pageTransition: {
+    name: 'page',
+    mode: 'out-in',
+    css: false,
+
+    beforeEnter(el) {
+      this.$anime.set(el, {
+        opacity: 0
+      })
+    },
+
+    enter(el, done) {
+      this.$anime({
+        targets: el,
+        opacity: [0, 1],
+        duration: 500,
+        easing: 'easeInOutSine',
+        complete: done
+      })
+    },
+
+    leave(el, done) {
+      this.$anime({
+        targets: el,
+        opacity: [1, 0],
+        duration: 500,
+        easing: 'easeInOutSine',
+        complete: done
+      })
+    }
   }
 }
