@@ -1,7 +1,7 @@
 <template>
   <div class="skirt">
     <div class="product">
-      <div data-aos="fade-right" class="_first">
+      <div class="_first">
         <h2> Skirt Rum </h2>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem ipsa cum, vel veniam totam! Iusto officia dolorum quisquam quam? </p>
         <NuxtLink to="/products/skirt-rum">Learn More</NuxtLink>
@@ -9,7 +9,7 @@
       <div class="_img">
         <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662544504/masterpiece/MODO7480-transformed_p30qym.png" alt="Skirt Rum">
       </div>
-      <div data-aos="fade-left" class="_links">
+      <div class="_links">
         <NuxtLink to="/products">See all our products</NuxtLink>
       </div>
     </div>

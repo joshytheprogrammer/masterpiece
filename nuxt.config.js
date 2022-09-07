@@ -25,9 +25,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    { src: "@/plugins/aos", mode: "client" },
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -50,11 +48,6 @@ export default {
       '@/assets/scss/mixins.scss'
     ],
     hoistUseStatements:  true,
-  },
-
-
-  purgeCSS: {
-    whitelist: ["aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"],
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
