@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <h1>Contact Masterpiece</h1>
+    <h1>Contact <span>Masterpiece</span></h1>
   </div>
 </template>
 
@@ -27,8 +27,13 @@ export default {
   h1 {
     padding: 1rem;
     font-size: 5.125em;
-    font-weight: 400;
+    font-weight: 700;
     text-shadow: 2px 3px 1px $dark;
+
+    span {
+      color: $secondary;
+      text-shadow: 2px 3px 1px $dark;
+    }
   }
 
   @media screen and (max-width: $medium){
