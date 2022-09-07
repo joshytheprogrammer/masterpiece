@@ -16,6 +16,7 @@
       <NuxtLink to="/products/rocklas">Rocklas Blended Whiskey</NuxtLink>
     </div>
     <div class="finisher">
+      <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png" alt="">
       <h2>Masterpiece</h2>
       <p>These products are not suitable for persons younger than 18. Please enjoy responsibly.</p>
     </div>
@@ -36,6 +37,7 @@ footer {
 
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 
   .links {
     padding: 18px 0;
@@ -60,8 +62,14 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     text-align: center;
     color: $light;
+
+    img {
+      width: 80px;
+      height: 80px;
+    }
 
     h2 {
       padding: 1rem 0;

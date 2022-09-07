@@ -154,5 +154,11 @@ export default {
     }
 
   }
+
+  @media screen and (max-width: $medium){
+    .form {
+      
+    }
+  }
 }
 </style>
