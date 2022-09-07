@@ -7,7 +7,6 @@
       <div data-aos="fade-up-left" class="_first">
         <h2>Kubanah Whiskey</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit perspiciatis atque. Expedita, pariatur excepturi. Repellat, ducimus fuga cupiditate vero ullam, soluta deleniti saepe quae suscipit esse laborum nisi libero!</p>
-        <!-- <NuxtLink to="/products/skirt-rum">Learn More</NuxtLink> -->
       </div>
     </div>
   </div>
@@ -65,6 +64,39 @@ export default {
       p {
         font-weight: 400;
         color: inherit;
+      }
+    }
+  }
+
+@media screen and (max-width: $m-large) {
+    .product {
+      ._first {
+        font-size: 18px;
+
+        h2 {
+          font-size: 56px;
+        }
+      }
+
+      ._img {
+        max-width: 386px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $medium){
+    .product {
+      flex-direction: column;
+
+      ._img {
+        img {
+          height: 450px;
+          object-fit: fill;
+        }
+      }
+
+      ._first {
+        width: 100%;
       }
     }
   }

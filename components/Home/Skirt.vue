@@ -121,9 +121,8 @@ export default {
         max-width: 386px;
       }
 
-
       ._links {
-        font-size: 16px;
+        display: none;
       }
     }
   }
@@ -141,10 +140,6 @@ export default {
           height: 450px;
           object-fit: fill;
         }
-      }
-
-      ._links {
-        display: none;
       }
     }
   }
