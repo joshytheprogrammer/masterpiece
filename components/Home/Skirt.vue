@@ -1,5 +1,5 @@
 <template>
-  <div class="products">
+  <div class="skirt">
     <div class="product">
       <div class="_first">
         <h2> Skirt Rum </h2>
@@ -7,7 +7,7 @@
         <NuxtLink to="/products/skirt-rum">Learn More</NuxtLink>
       </div>
       <div class="_img">
-        <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662462418/masterpiece/MODO7480-transformed_p30qym.png" alt="Skirt Rum">
+        <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662544504/masterpiece/MODO7480-transformed_p30qym.png" alt="Skirt Rum">
       </div>
       <div class="_links">
         <NuxtLink to="/products">See all our products</NuxtLink>
@@ -46,7 +46,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.products {
+.skirt {
   display: block;
   padding: 1rem;
 
@@ -95,6 +95,11 @@ export default {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        transition: scale 0.5s ease;
+
+        &:hover {
+          scale: 1.1;
+        }
       }
     }
 

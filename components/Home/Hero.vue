@@ -60,8 +60,6 @@ export default {
 .hero {
   .content {
     padding: 1rem;
-    // background-color: transparent;
-    // background-image: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: $dark;
