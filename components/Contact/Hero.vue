@@ -30,5 +30,11 @@ export default {
     text-shadow: 2px 3px 1px $dark;
   }
 
+  @media screen and (max-width: $medium){
+    h1 {
+      font-size: 48px;
+    }
+  }
+
 }
 </style>
