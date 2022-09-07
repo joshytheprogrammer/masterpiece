@@ -14,10 +14,21 @@
         <button type="submit">Send Message</button>
       </form>
 
-
     </div>
     <div class="hub">
-      a
+      <div class="item">
+        <p class="key">Head Office:</p>
+        <p class="value">5 Yisa Street</p>
+      </div>
+      <div class="item">
+        <p class="key">Call us:</p>
+        <p class="value">0800-600-0000</p>
+        <p class="value">0700-825-586-6275</p>
+      </div>
+      <div class="item">
+        <p class="key">Email: </p>
+        <p class="value">masterpiece@gmail.com</p>
+      </div>
     </div>
   </div>
 </template>
@@ -114,8 +125,33 @@ export default {
   .hub {
     width: 500px;
     height: 700px;
-    background-color: transparent;
-    background-image: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
+    padding: 1rem;
+    background-color: $d-secondary;
+
+    color: $light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .item {
+      padding: 1rem 0;
+
+      .key {
+        font: {
+          size: 20px;
+          weight: 700;
+        }
+      }
+
+      .value {
+        font: {
+          size: 16px;
+          weight: 400;
+        }
+      }
+    }
 
   }
 }
