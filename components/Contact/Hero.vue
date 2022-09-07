@@ -37,6 +37,8 @@ export default {
   }
 
   @media screen and (max-width: $medium){
+    height: 500px;
+
     h1 {
       font-size: 48px;
     }
