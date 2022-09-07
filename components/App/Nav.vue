@@ -70,7 +70,7 @@ nav {
 
   .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 72px;
 
@@ -89,7 +89,7 @@ nav {
 
   @media screen and (max-width: $medium) {
     .navbar {
-      justify-content: space-between;
+
       .logo {
         a {
           h2 {
