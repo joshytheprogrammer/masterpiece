@@ -69,8 +69,15 @@ footer {
   @media screen and (max-width: $medium) {
     display: block;
 
+    .links {
+      a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
     .finisher {
-      text-align: left;
+      text-align: center;
       padding: 18px 0;
     }
   }
