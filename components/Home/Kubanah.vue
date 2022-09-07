@@ -1,10 +1,10 @@
 <template>
   <div class="kubanah">
     <div class="product">
-      <div class="_img">
+      <div data-aos="fade-right" class="_img">
         <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662546173/masterpiece/MODO7446-transformed_mae3nd.png" alt="Kubanah Whiskey">
       </div>
-      <div class="_first">
+      <div data-aos="fade-up-left" class="_first">
         <h2>Kubanah Whiskey</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit perspiciatis atque. Expedita, pariatur excepturi. Repellat, ducimus fuga cupiditate vero ullam, soluta deleniti saepe quae suscipit esse laborum nisi libero!</p>
         <!-- <NuxtLink to="/products/skirt-rum">Learn More</NuxtLink> -->
