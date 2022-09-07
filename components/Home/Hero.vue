@@ -19,7 +19,7 @@ export default {
   },
   mounted() {
     this.loadImages()
-    this.doSlideShow()
+    window.addEventListener("resize", this.loadImages);
 
     setInterval(() => {
       this.doSlideShow()
@@ -27,31 +27,32 @@ export default {
   },
   methods: {
     doSlideShow() {
-      if(this.currentNo > this.images.length) { this.currentNo = 0}
+      if(this.currentNo > (this.images.length - 1)) { this.currentNo = 0}
 
       this.backgroundImage = this.images[this.currentNo]
 
       this.currentNo++
     },
     loadImages() {
+      this.images = []
+
       let desktopImages = [
         "https://res.cloudinary.com/dsgvwxygr/image/upload/c_crop,h_968/v1662190088/masterpiece/MODO7364_hn0pra.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662457782/masterpiece/MODO7289_zxypmq.jpg"
       ]
 
       let mobileImages = [
-        "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662461577/masterpiece/MODO7490_wwv0dw.jpg"
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662543202/masterpiece/MODO7289_qqhhe6_1f1e80.jpg",
       ]
 
-      if(this.testMobile) {
-        this.images = desktopImages
-      }else {
-        this.images = mobileImages
-      }
+      this.testMobile() ? this.images = desktopImages : this.images = mobileImages
     },
     testMobile() {
       return window.innerWidth > 768
     }
-  }
+  },
+  unmounted() {
+    window.removeEventListener("resize", this.loadImages);
+  },
 }
 </script>
 
