@@ -71,6 +71,7 @@ footer {
 
     .links {
       a {
+        padding: 15px 0;
         width: 100%;
         text-align: center;
       }
