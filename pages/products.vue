@@ -1,14 +1,18 @@
 <template>
   <div class="products">
     <Hero />
+    <Products />
   </div>
 </template>
 
 <script>
 import Hero from "../components/Products/Hero.vue"
+import Products from "../components/Products/Product.vue"
+
 export default {
   components : {
-    Hero
+    Hero,
+    Products
   }
 }
 </script>
