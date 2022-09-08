@@ -114,7 +114,7 @@ export default {
 
       button {
         padding: 1rem 2rem;
-        background: $d-secondary;
+        background: $secondary;
         cursor: pointer;
         border: none;
         color: $light;
@@ -123,7 +123,7 @@ export default {
         transition: background .5s ease;
 
         &:hover {
-          background: $dark;
+          background: $d-secondary;
         }
       }
     }
@@ -133,7 +133,7 @@ export default {
     width: 500px;
     height: 700px;
     padding: 1rem;
-    background-color: $d-secondary;
+    background-color: $secondary;
 
     color: $light;
     display: flex;
