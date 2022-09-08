@@ -1,5 +1,10 @@
 <template>
   <footer>
+    <div class="finisher">
+      <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png" alt="">
+      <h2>Masterpiece</h2>
+      <p>These products are not suitable for persons younger than 18. Please enjoy responsibly.</p>
+    </div>
     <div class="links">
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
@@ -14,11 +19,6 @@
       <NuxtLink to="/products/skirt/#brandey">Skirt Blended Brandey</NuxtLink>
       <NuxtLink to="/products/skirt/#gin">Skirt Dry Gin</NuxtLink>
       <NuxtLink to="/products/rocklas">Rocklas Blended Whiskey</NuxtLink>
-    </div>
-    <div class="finisher">
-      <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png" alt="">
-      <h2>Masterpiece</h2>
-      <p>These products are not suitable for persons younger than 18. Please enjoy responsibly.</p>
     </div>
   </footer>
 </template>
@@ -36,7 +36,7 @@ footer {
   padding: 1rem;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
 
   .links {
@@ -45,7 +45,7 @@ footer {
     a {
       padding: 8px 0;
       width: 100%;
-      text-align: center;
+      text-align: left;
       color: $light;
       display: block;
       text-decoration: none;
