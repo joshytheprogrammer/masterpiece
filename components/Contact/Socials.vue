@@ -15,5 +15,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.socials {
+  padding: 2rem 1rem;
+  color: $light;
+  background-image: url('https://www.nbplc.com/storage/2021/10/glass-cold-beer-macro-photography-min-scaled.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: $dark;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 </style>
