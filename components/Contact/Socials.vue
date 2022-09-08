@@ -19,7 +19,7 @@ export default {
   padding: 2rem 1rem;
   height: 500px;
   color: $light;
-  background-image: url('https://www.nbplc.com/storage/2021/10/glass-cold-beer-macro-photography-min-scaled.jpg');
+  background-image: url('https://images.unsplash.com/photo-1608270586620-248524c67de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-color: $dark;
