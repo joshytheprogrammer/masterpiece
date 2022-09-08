@@ -64,13 +64,19 @@ export default {
       }
 
       a {
-        display: block;
-        color: $light;
-        background: $secondary;
-        width: fit-content;
-        padding: 0.9rem 1.4rem;
+        padding: 1rem 2rem;
+        background: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
+        cursor: pointer;
+        border: none;
         margin: auto;
         text-decoration: none;
+        color: $light;
+        font-size: 16px;
+        font-weight: 500;
+        transition: background .5s ease;
+        &:hover {
+          background: radial-gradient(at center center, $d-secondary 0%, $secondary 100%);
+        }
       }
     }
 

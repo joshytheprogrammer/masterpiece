@@ -133,7 +133,7 @@ export default {
     width: 500px;
     height: 700px;
     padding: 1rem;
-    background-image: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
+    background-image: radial-gradient(at center center, $d-secondary 0%, $secondary 100%);
 
     color: $light;
     display: flex;
