@@ -20,6 +20,7 @@
 
     font-weight: 400;
     font-size: 16px;
+    transition: font .5s ease-in-out;
 
     &:hover {
       text-decoration: underline;
@@ -32,6 +33,7 @@
       text-decoration-color: $secondary;
       text-underline-offset: 9px;
       color: $secondary;
+      font-weight: 500;
     }
   }
 
