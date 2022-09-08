@@ -57,7 +57,8 @@ export default {
     h2 {
       font-size: 48px;
       font-weight: 500;
-      color: $d-secondary;
+      color: $secondary;
+      text-shadow: 1px 1px $d-secondary;
     }
 
     p {
