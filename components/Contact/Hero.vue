@@ -26,7 +26,7 @@ export default {
 
   h1 {
     padding: 1rem;
-    font-size: 5.125em;
+    font-size: 48px;
     font-weight: 400;
     text-shadow: 2px 3px 1px $dark;
 
@@ -38,10 +38,6 @@ export default {
 
   @media screen and (max-width: $medium){
     height: 500px;
-
-    h1 {
-      font-size: 48px;
-    }
   }
 
 }
