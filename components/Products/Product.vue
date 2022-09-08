@@ -10,9 +10,13 @@
 export default {
   data() {
     return {
-      products: {
-
-      }
+      products: [
+        {
+          id: 0,
+          name: '',
+          img: ''
+        }
+      ]
     }
   }
 }
