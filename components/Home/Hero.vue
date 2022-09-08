@@ -118,7 +118,7 @@ export default {
 
       ._pitch {
         h1 {
-          font-size: 48px;
+          font-size: 46px;
         }
       }
     }
