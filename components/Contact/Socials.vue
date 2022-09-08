@@ -51,9 +51,15 @@ export default {
   }
 
   @media screen and (max-width: $medium){
+    height: 300px;
     background-image: url('https://images.unsplash.com/photo-1608270586620-248524c67de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80');
 
+    h2 {
+      font-size: 32px;
+    }
+
     p {
+      font-size: 16px;
       padding: 0 1rem;
       width: 100%;
     }
