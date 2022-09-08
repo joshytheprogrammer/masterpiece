@@ -83,7 +83,7 @@ export default {
 
         font: {
           size: 16px;
-          weight: 300;
+          weight: 400;
         }
 
         &::placeholder {
