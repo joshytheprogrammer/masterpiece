@@ -33,7 +33,7 @@ export default {
   h2 {
     padding: 1rem 0;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 400;
     color: $secondary;
     text-shadow: 2px 3px 1px $dark;
   }

@@ -27,7 +27,7 @@ export default {
   h1 {
     padding: 1rem;
     font-size: 5.125em;
-    font-weight: 700;
+    font-weight: 400;
     text-shadow: 2px 3px 1px $dark;
 
     span {

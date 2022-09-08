@@ -56,9 +56,9 @@ export default {
 
     h2 {
       font-size: 48px;
-      font-weight: 500;
-      color: $secondary;
-      text-shadow: 1px 1px $d-secondary;
+      font-weight: 400;
+      color: $d-secondary;
+      // text-shadow: 1px 1px $d-secondary;
     }
 
     p {
@@ -83,7 +83,7 @@ export default {
 
         font: {
           size: 16px;
-          weight: 400;
+          weight: 300;
         }
 
         &::placeholder {
