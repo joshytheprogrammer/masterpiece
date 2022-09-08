@@ -58,7 +58,6 @@ export default {
       font-size: 48px;
       font-weight: 400;
       color: $d-secondary;
-      // text-shadow: 1px 1px $d-secondary;
     }
 
     p {
