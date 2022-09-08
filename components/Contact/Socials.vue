@@ -46,7 +46,13 @@ export default {
     line-height: 25px;
   }
 
+  @media screen and (max-width: $m-large){
+    background-image: url('https://images.unsplash.com/photo-1608270586620-248524c67de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80');
+  }
+
   @media screen and (max-width: $medium){
+    background-image: url('https://images.unsplash.com/photo-1608270586620-248524c67de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80');
+
     p {
       padding: 0 1rem;
       width: 100%;
