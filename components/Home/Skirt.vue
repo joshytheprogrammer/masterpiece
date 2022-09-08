@@ -7,7 +7,7 @@
         <NuxtLink to="/products/skirt-rum">Learn More</NuxtLink>
       </div>
       <div class="_img">
-        <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662544504/masterpiece/MODO7480-transformed_p30qym.png" alt="Skirt Rum">
+        <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662651185/masterpiece/MODO7480-transformed_p30qym.png" alt="Skirt Rum">
       </div>
       <div class="_links">
         <NuxtLink to="/products">See all our products</NuxtLink>
@@ -39,7 +39,7 @@ export default {
   .product {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     ._first {
@@ -74,6 +74,7 @@ export default {
         font-size: 16px;
         font-weight: 500;
         transition: background .5s ease;
+
         &:hover {
           background: radial-gradient(at center center, $d-secondary 0%, $secondary 100%);
         }
@@ -81,11 +82,10 @@ export default {
     }
 
     ._img {
-      max-width: 528px;
 
       img {
         width: 100%;
-        height: 100%;
+        height: 628px;
         object-fit: cover;
         transition: scale 0.5s ease;
 
@@ -96,7 +96,8 @@ export default {
     }
 
     ._links {
-      padding: 1rem;
+      // display: none;
+      padding: 2rem;
       font-weight: 700;
       font-size: 18px;
 
