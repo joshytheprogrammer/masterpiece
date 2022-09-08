@@ -114,7 +114,7 @@ export default {
 
       button {
         padding: 1rem 2rem;
-        background: $secondary;
+        background: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
         cursor: pointer;
         border: none;
         color: $light;
@@ -123,7 +123,7 @@ export default {
         transition: background .5s ease;
 
         &:hover {
-          background: $d-secondary;
+          background: radial-gradient(at center center, $d-secondary 0%, $d-secondary 100%);
         }
       }
     }
@@ -133,7 +133,7 @@ export default {
     width: 500px;
     height: 700px;
     padding: 1rem;
-    background-color: $secondary;
+    background-image: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
 
     color: $light;
     display: flex;
