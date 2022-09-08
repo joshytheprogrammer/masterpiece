@@ -18,7 +18,7 @@
     <div class="hub">
       <div class="item">
         <p class="key">Head Office:</p>
-        <p class="value">5 Yisa Street</p>
+        <p class="value">110 Ijesha Rd, Surulere 102215, Lagos</p>
       </div>
       <div class="item">
         <p class="key">Call us:</p>
@@ -146,14 +146,16 @@ export default {
 
       .key {
         font: {
-          size: 20px;
+          size: 24px;
           weight: 700;
         }
+
+        padding-bottom: 0.5rem;
       }
 
       .value {
         font: {
-          size: 16px;
+          size: 18px;
           weight: 400;
         }
       }
