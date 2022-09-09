@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <figure>
-      <img src="../../assets/img/_DSC8878.png" alt="">
+      <!-- <img src="../../assets/img/_DSC8878.png" alt=""> -->
     </figure>
   </div>
 </template>
@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      
+
     }
   }
 }
