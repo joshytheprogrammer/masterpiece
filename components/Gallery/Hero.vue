@@ -13,7 +13,7 @@ export default {
 <style lang="scss" scoped>
 .hero {
   height: 400px;
-  background-color: $dark;
+  background: radial-gradient(at center center, $light 0%, $dark 100%);
   color: $light;
 
   display: flex;
