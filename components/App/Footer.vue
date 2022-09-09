@@ -2,7 +2,7 @@
   <footer>
     <div class="finisher">
       <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png" alt="">
-      <h2>Masterpiece</h2>
+      <NuxtLink to="/"><h2>Masterpiece</h2></NuxtLink>
       <p>These products are not suitable for persons younger than 18. Please enjoy responsibly.</p>
     </div>
     <div class="links">
@@ -71,9 +71,15 @@ footer {
       height: 80px;
     }
 
-    h2 {
-      padding: 1rem 0;
-      font-size: 28px;
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      color: inherit;
+      
+      h2 {
+        padding: 1rem 0;
+        font-size: 28px;
+      }
     }
 
     p {
