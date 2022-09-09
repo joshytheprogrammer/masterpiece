@@ -74,6 +74,7 @@ export default {
       .form-control {
         margin: 0.5rem 0;
         background: transparent;
+        color: $dark;
         border: none;
         height: 40px;
         padding: 2px 4px;
