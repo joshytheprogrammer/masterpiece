@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Hero from "../components/Products/Hero.vue"
-import Products from "../components/Products/Product.vue"
+import Hero from "../../components/Products/Hero.vue"
+import Products from "../../components/Products/Product.vue"
 
 export default {
   components : {
