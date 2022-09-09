@@ -5,7 +5,7 @@
         <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662546173/masterpiece/MODO7446-transformed_mae3nd.png" alt="Kubanah Whiskey">
       </div>
       <div class="_first">
-        <h2>Kubanah Whiskey</h2>
+        <h2>Kubanah Whisky</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit perspiciatis atque. Expedita, pariatur excepturi. Repellat, ducimus fuga cupiditate vero ullam, soluta deleniti saepe quae suscipit esse laborum nisi libero!</p>
       </div>
     </div>

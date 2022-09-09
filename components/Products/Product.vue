@@ -14,7 +14,7 @@ export default {
       products: [
         {
           id: 0,
-          name: 'Kubanah Whiskey',
+          name: 'Kubanah Whisky',
           img: 'https://www.guinness.com/media/1576/originalbottle_bg1_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
           slug: '/products/kubanah'
         },

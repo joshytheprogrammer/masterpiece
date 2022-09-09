@@ -14,7 +14,7 @@
       <!-- <NuxtLink to="/find-us">Our locations</NuxtLink> -->
     </div>
     <div class="links">
-      <NuxtLink to="/products/kubanah">Kubanah Whiskey</NuxtLink>
+      <NuxtLink to="/products/kubanah">Kubanah Whisky</NuxtLink>
       <NuxtLink to="/products/skirt/#rum">Skirt Cafe Rum</NuxtLink>
       <NuxtLink to="/products/skirt/#brandey">Skirt Blended Brandey</NuxtLink>
       <NuxtLink to="/products/skirt/#gin">Skirt Dry Gin</NuxtLink>
