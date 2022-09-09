@@ -2,8 +2,7 @@
   <div class="products">
     <div class="product" v-for="product in products" :key="product.id">
       <img :src="product.img" :alt="product.name">
-      <NuxtLink to="#"><h2>{{product.name}}</h2></NuxtLink>
-
+      <NuxtLink :to="product.slug"><h2>{{product.name}}</h2></NuxtLink>
     </div>
   </div>
 </template>
@@ -15,34 +14,34 @@ export default {
       products: [
         {
           id: 0,
-          name: 'guiness1',
-          img: 'https://www.guinness.com/media/1576/originalbottle_bg1_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false'
+          name: 'Kubanah Whiskey',
+          img: 'https://www.guinness.com/media/1576/originalbottle_bg1_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          slug: '/products/kubanah'
         },
         {
           id: 1,
-          name: 'guiness2',
-          img: 'https://www.guinness.com/media/1536/guinesssmooth2_spritz2_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false'
+          name: 'Rocklas Blended Whisky',
+          img: 'https://www.guinness.com/media/1536/guinesssmooth2_spritz2_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          slug: '/products/rocklas'
         },
         {
           id: 2,
-          name: 'guiness3',
-          img: 'https://www.guinness.com/media/1530/africaspecial_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false'
+          name: 'Skirt Cafe Rum',
+          img: 'https://www.guinness.com/media/1530/africaspecial_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          slug: '/products/skirt#rum'
         },
         {
           id: 3,
-          name: 'guiness1',
-          img: 'https://www.guinness.com/media/1576/originalbottle_bg1_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false'
+          name: 'Skirt Blended Brandy',
+          img: 'https://www.guinness.com/media/1576/originalbottle_bg1_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          slug: '/products/skirt#brandy'
         },
         {
           id: 4,
-          name: 'guiness2',
-          img: 'https://www.guinness.com/media/1536/guinesssmooth2_spritz2_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false'
+          name: 'Skirt Dry Gin',
+          img: 'https://www.guinness.com/media/1536/guinesssmooth2_spritz2_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          slug: '/products/skirt#gin'
         },
-        {
-          id: 5,
-          name: 'guiness3',
-          img: 'https://www.guinness.com/media/1530/africaspecial_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false'
-        }
       ]
     }
   }
