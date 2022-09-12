@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     doSlideShow() {
-      if(this.currentNo > (this.images.length - 1)) { this.currentNo = 0}
+      if(this.currentNo > (this.images.length - 1)) { this.currentNo = 0 }
 
       this.backgroundImage = this.images[this.currentNo]
 
@@ -37,7 +37,7 @@ export default {
       this.images = []
 
       let desktopImages = [
-        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_crop,h_968/v1662190088/masterpiece/MODO7364_hn0pra.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662457782/masterpiece/MODO7289_zxypmq.jpg"
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_crop,h_968/v1662190088/masterpiece/MODO7364_hn0pra.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662457782/masterpiece/MODO7289_zxypmq.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662987910/masterpiece/bg-img-3_wigjxc.jpg"
       ]
 
       let mobileImages = [
