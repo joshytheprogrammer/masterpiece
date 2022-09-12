@@ -10,7 +10,8 @@
 export default {
   data() {
     return {
-      images: [
+      images: [],
+      rawImages: [
         {
           id: 0,
           alt: 'img-1',
@@ -65,27 +66,26 @@ export default {
     }
   },
   mounted() {
-    this.images = this.shuffle(this.images)
+    this.shuffle()
   },
   methods: {
-    shuffle(array) {
-      let currentIndex = array.length,  randomIndex;
+    shuffle() {
+      let array = this.rawImages
+
+      let currentIndex = array.length,  randomIndex
 
       // While there remain elements to shuffle.
       while (currentIndex != 0) {
 
         // Pick a remaining element.
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
+        randomIndex = Math.floor(Math.random() * currentIndex)
+        currentIndex--
 
         // And swap it with the current element.
-        [array[currentIndex], array[randomIndex]] = [
-          array[randomIndex], array[currentIndex]];
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]]
       }
 
-      console.log(array)
-
-      return array;
+      this.images = array
     }
 
   }
