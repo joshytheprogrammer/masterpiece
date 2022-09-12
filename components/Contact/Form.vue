@@ -95,7 +95,7 @@ export default {
 
         &:focus {
           outline: none;
-          border-bottom-color: $secondary;
+          border-bottom-color: $dark;
         }
 
         &.h {
@@ -114,7 +114,7 @@ export default {
 
       button {
         padding: 1rem 2rem;
-        background: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
+        background: $d-secondary;
         cursor: pointer;
         border: none;
         color: $light;
@@ -123,7 +123,7 @@ export default {
         transition: background .5s ease;
 
         &:hover {
-          background: radial-gradient(at center center, $d-secondary 0%, $d-secondary 100%);
+          background: $dark;
         }
       }
     }
@@ -133,9 +133,10 @@ export default {
     width: 500px;
     height: 700px;
     padding: 1rem;
-    background-image: radial-gradient(at center center, $d-secondary 0%, $secondary 100%);
+    background: $dark;
+    // background-image: radial-gradient(at center center, $d-secondary 0%, $secondary 100%);
 
-    color: $light;
+    color: $d-secondary;
     display: flex;
     flex-direction: column;
     justify-content: center;
