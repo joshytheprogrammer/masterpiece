@@ -1,8 +1,10 @@
 <template>
   <div class="products">
     <div class="product" v-for="product in products" :key="product.id">
-      <img :src="product.img" :alt="product.name">
-      <NuxtLink :to="product.slug"><h2>{{product.name}}</h2></NuxtLink>
+      <NuxtLink :to="product.slug">
+        <img :src="product.img" :alt="product.name">
+        <h2>{{product.name}}</h2>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -50,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 .products {
-  background: $dark;
+  background: $light;
   padding: 2rem;
 
   display: grid;
@@ -60,20 +62,9 @@ export default {
   .product {
     padding: 1rem 0;
 
-    img {
-      width: 100%;
-      height: 628px;
-      object-fit: cover;
-      transition: scale 0.5s ease;
-
-      &:hover {
-        scale: 1.1;
-      }
-    }
-
     a {
       text-decoration: none;
-      color: $light;
+      color: $dark;
 
       h2 {
         color: inherit;
@@ -82,6 +73,17 @@ export default {
         padding: 2rem 0;
         cursor: pointer;
       }
+
+      img {
+        width: 100%;
+        height: 628px;
+        object-fit: cover;
+        transition: scale 0.5s ease;
+
+        &:hover {
+          scale: 1.1;
+        }
+      }
     }
   }
 
@@ -89,8 +91,11 @@ export default {
     display: block;
 
     .product {
-      img {
-        height: 100%;
+      a {
+        img {
+          height: 428px;
+          object-fit: contain;
+        }
       }
     }
   }
