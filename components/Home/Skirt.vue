@@ -143,22 +143,15 @@ export default {
       }
 
       ._img {
+        max-width: 100%;
+
         img {
-          height: 450px;
-          object-fit: fill;
+          height: 428px;
+          object-fit: contain;
         }
       }
     }
   }
 
-  @media screen and (max-width: $small){
-    .product {
-      ._img {
-        img {
-          height: auto;
-        }
-      }
-    }
-  }
 }
 </style>
