@@ -76,8 +76,8 @@ export default {
 
       img {
         width: 100%;
-        height: 628px;
-        object-fit: cover;
+        height: 568px;
+        object-fit: contain;
         transition: scale 0.5s ease;
 
         &:hover {
