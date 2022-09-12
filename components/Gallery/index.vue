@@ -136,6 +136,56 @@ export default {
           id: 24,
           alt: 'img-25',
           link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662996192/masterpiece/MODO6831_rezljj.jpg'
+        },
+        {
+          id: 25,
+          alt: 'img-26',
+          link: ''
+        },
+        {
+          id: 26,
+          alt: 'img-27',
+          link: ''
+        },
+        {
+          id: 27,
+          alt: 'img-28',
+          link: ''
+        },
+        {
+          id: 28,
+          alt: 'img-29',
+          link: ''
+        },
+        {
+          id: 29,
+          alt: 'img-30',
+          link: ''
+        },
+        {
+          id: 30,
+          alt: 'img-31',
+          link: ''
+        },
+        {
+          id: 31,
+          alt: 'img-32',
+          link: ''
+        },
+        {
+          id: 32,
+          alt: 'img-33',
+          link: ''
+        },
+        {
+          id: 34,
+          alt: 'img-35',
+          link: ''
+        },
+        {
+          id: 35,
+          alt: 'img-36',
+          link: ''
         }
       ]
     }
