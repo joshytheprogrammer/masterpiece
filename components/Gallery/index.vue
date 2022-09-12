@@ -10,7 +10,11 @@
 export default {
   data() {
     return {
+      images: [
+        "",
+        "",
 
+      ]
     }
   }
 }

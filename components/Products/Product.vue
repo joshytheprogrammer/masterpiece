@@ -15,31 +15,31 @@ export default {
         {
           id: 0,
           name: 'Kubanah Whisky',
-          img: 'https://www.guinness.com/media/1576/originalbottle_bg1_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662985594/masterpiece/kubana-transparent_1_peuioc.png',
           slug: '/products/kubanah'
         },
         {
           id: 1,
           name: 'Rocklas Blended Whisky',
-          img: 'https://www.guinness.com/media/1536/guinesssmooth2_spritz2_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662985129/masterpiece/Rocklas-trans_richha.png',
           slug: '/products/rocklas'
         },
         {
           id: 2,
           name: 'Skirt Cafe Rum',
-          img: 'https://www.guinness.com/media/1530/africaspecial_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662651185/masterpiece/MODO7480-transformed_p30qym.png',
           slug: '/products/skirt#rum'
         },
         {
           id: 3,
           name: 'Skirt Blended Brandy',
-          img: 'https://www.guinness.com/media/1576/originalbottle_bg1_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662985746/masterpiece/skirt-blended-brandy_t7f603.png',
           slug: '/products/skirt#brandy'
         },
         {
           id: 4,
           name: 'Skirt Dry Gin',
-          img: 'https://www.guinness.com/media/1536/guinesssmooth2_spritz2_resized_1600-h.jpg?quality=75&format=webp&width=1920&upscale=false',
+          img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987025/masterpiece/MODO7490-transformed_i2ef7m.png',
           slug: '/products/skirt#gin'
         },
       ]
