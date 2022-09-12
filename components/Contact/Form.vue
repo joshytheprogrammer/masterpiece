@@ -133,6 +133,7 @@ export default {
     width: 500px;
     height: 700px;
     padding: 1rem;
+    // background: radial-gradient(#e9bf4c, #f8eec1, #be8121, #f3db7c, #cd951f);
     background: $dark;
     // background-image: radial-gradient(at center center, $d-secondary 0%, $secondary 100%);
 
