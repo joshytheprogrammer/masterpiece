@@ -32,36 +32,6 @@ export default {
           alt: 'img-4',
           link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987910/masterpiece/bg-img-3_wigjxc.jpg'
         },
-        {
-          id: 4,
-          alt: 'img-1',
-          link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1658833457/cld-sample-4.jpg'
-        },
-        {
-          id: 5,
-          alt: 'img-2',
-          link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1658833458/cld-sample-5.jpg'
-        },
-        {
-          id: 6,
-          alt: 'img-3',
-          link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1658833457/cld-sample.jpg'
-        },
-        {
-          id: 7,
-          alt: 'img-4',
-          link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1658833457/cld-sample-3.jpg'
-        },
-        {
-          id: 8,
-          alt: 'img-3',
-          link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1658833457/cld-sample-2.jpg'
-        },
-        {
-          id: 9,
-          alt: 'img-4',
-          link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1656162193/sample.jpg'
-        }
       ]
     }
   },
@@ -87,7 +57,6 @@ export default {
 
       this.images = array
     }
-
   }
 }
 </script>
