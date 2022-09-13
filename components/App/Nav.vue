@@ -3,7 +3,7 @@
     <div class="navbar">
       <!-- The Logo Section -->
       <div class="logo">
-        <NuxtLink to="/">
+        <NuxtLink to="/#">
           <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png" alt="Masterpiece Logo">
           <h2>MASTERPIECE</h2>
         </NuxtLink>

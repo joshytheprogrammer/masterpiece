@@ -1,7 +1,7 @@
 <template>
   <div class="links">
     <!-- Make sure to use css to differentiate between mobile and  -->
-    <NuxtLink to="/">Home</NuxtLink>
+    <NuxtLink to="/#">Home</NuxtLink>
     <NuxtLink to="/about">About</NuxtLink>
     <NuxtLink to="/products">Products</NuxtLink>
     <NuxtLink to="/gallery">Gallery</NuxtLink>
@@ -26,6 +26,13 @@
       text-decoration: underline;
       text-decoration-color: $secondary;
       text-underline-offset: 9px;
+    }
+
+    &.nuxt-link-active {
+      text-decoration: underline;
+      text-decoration-color: $secondary;
+      text-underline-offset: 9px;
+      font-weight: 500;
     }
 
     &.nuxt-link-exact-active {
