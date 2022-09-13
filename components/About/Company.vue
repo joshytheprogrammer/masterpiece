@@ -62,6 +62,7 @@ export default {
     }
 
     ._img {
+      padding-bottom: 1rem;
       max-width: 100%;
     }
   }

@@ -16,7 +16,6 @@ export default {
   background-image: url('https://images.unsplash.com/photo-1587582816472-81e94768469a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&h=700&q=80');
   height: 600px;
   padding: 5rem 1rem;
-  margin: 2.5rem 0;
 
   display: flex;
   flex-direction: column;
