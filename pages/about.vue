@@ -1,17 +1,17 @@
 <template>
   <div class="about">
     <Hero />
-    <OurCompany />
+    <Company />
   </div>
 </template>
 
 <script>
 import Hero from "../components/About/Hero.vue"
-import OurCompamny from "../components/About/Company.vue"
+import Company from "../components/About/Company.vue"
 export default {
   components: {
     Hero,
-    OurCompamny
+    Company
   }
 }
 </script>
