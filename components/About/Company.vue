@@ -22,7 +22,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 5rem 1rem;
 
   .copy {
     padding: 1rem;
