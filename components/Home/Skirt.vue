@@ -65,7 +65,7 @@ export default {
 
       a {
         padding: 1rem 2rem;
-        background: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
+        background: radial-gradient(at center center, $secondary 0%, $secondary 100%);
         cursor: pointer;
         border: none;
         margin: auto;
@@ -76,7 +76,7 @@ export default {
         transition: background .5s ease;
 
         &:hover {
-          background: radial-gradient(at center center, $d-secondary 0%, $secondary 100%);
+          background: radial-gradient(at center center, $secondary 0%, $secondary 100%);
         }
       }
     }

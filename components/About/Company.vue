@@ -31,7 +31,7 @@ export default {
       font-size: 48px;
       font-weight: 700;
       padding: 1rem 0;
-      color: $d-secondary;
+      color: $secondary;
     }
 
     p {

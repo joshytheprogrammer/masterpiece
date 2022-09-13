@@ -57,7 +57,7 @@ export default {
     h2 {
       font-size: 48px;
       font-weight: 400;
-      color: $d-secondary;
+      color: $secondary;
     }
 
     p {
@@ -78,7 +78,7 @@ export default {
         border: none;
         height: 40px;
         padding: 2px 4px;
-        border-bottom: 1px solid $d-secondary;
+        border-bottom: 1px solid $secondary;
         transition: border .5s ease;
 
         font: {
@@ -114,7 +114,7 @@ export default {
 
       button {
         padding: 1rem 2rem;
-        background: $d-secondary;
+        background: $secondary;
         cursor: pointer;
         border: none;
         color: $light;
@@ -145,7 +145,7 @@ export default {
       padding: 1rem 0;
 
       .key {
-        color: $d-secondary;
+        color: $secondary;
         text-transform: uppercase;
 
         font: {

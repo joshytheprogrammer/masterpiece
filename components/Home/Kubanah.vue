@@ -22,7 +22,7 @@ export default {
 .kubanah {
   padding: 2rem 1rem;
   background-color: transparent;
-  background-image: radial-gradient(at center center, $secondary 0%, $d-secondary 100%);
+  background-image: radial-gradient(at center center, $secondary 0%, $secondary 100%);
 
   .product {
     display: flex;
