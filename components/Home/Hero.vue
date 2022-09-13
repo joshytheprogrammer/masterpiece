@@ -81,7 +81,7 @@ export default {
 
 
       h1 {
-        font-size: 5.125em;
+        font-size: 5vw;
         font-weight: 900;
 
         span {
