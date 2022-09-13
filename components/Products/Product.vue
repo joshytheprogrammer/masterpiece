@@ -37,17 +37,17 @@ export default {
         },
         {
           id: 3,
-          name: 'Skirt Blended Brandy',
-          img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662985746/masterpiece/skirt-blended-brandy_t7f603.png',
-          bgImg: 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_700/v1663079763/masterpiece/gradient-4_u24fup.png',
-          slug: '/products/skirt#brandy'
-        },
-        {
-          id: 4,
           name: 'Skirt Dry Gin',
           img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987025/masterpiece/MODO7490-transformed_i2ef7m.png',
           bgImg: 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_700/v1663079973/masterpiece/gradient-5_k1oya8.png',
           slug: '/products/skirt#gin'
+        },
+        {
+          id: 4,
+          name: 'Skirt Blended Brandy',
+          img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662985746/masterpiece/skirt-blended-brandy_t7f603.png',
+          bgImg: 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_700/v1663080559/masterpiece/gradient-4_talend.png',
+          slug: '/products/skirt#brandy'
         },
       ]
     }
@@ -57,7 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 .products {
-  background: $light;
+  background: $dark;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
