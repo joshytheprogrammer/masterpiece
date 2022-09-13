@@ -2,7 +2,7 @@
   <div class="hero">
     <div class="content" :style="'background-image: url('+backgroundImage+');'">
       <div class="_pitch">
-        <h1>Enjoy our <span>Masterpiece</span></h1>
+        <h1>Experience the <span>Masterpiece</span></h1>
       </div>
     </div>
   </div>
