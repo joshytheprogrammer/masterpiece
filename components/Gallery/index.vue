@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <figure v-for="item in images" :key="item.id">
-      <img :src="item.link" :alt="item.alt">
+      <img :src="item.link" :alt="item.alt" loading="lazy">
     </figure>
   </div>
 </template>
