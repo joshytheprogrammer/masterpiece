@@ -19,11 +19,13 @@ export default {
   },
   mounted() {
     this.loadImages()
-    window.addEventListener("resize", this.loadImages);
+    this.doSlideShow()
 
     setInterval(() => {
       this.doSlideShow()
     }, 5000)
+
+    window.addEventListener("resize", this.loadImages);
   },
   methods: {
     doSlideShow() {

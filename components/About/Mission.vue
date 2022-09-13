@@ -12,6 +12,6 @@ export default {
 
 <style lang="scss" scoped>
 .mission {
-  
+  padding: 1rem;
 }
 </style>
