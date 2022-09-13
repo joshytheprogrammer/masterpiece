@@ -19,7 +19,7 @@
       <NuxtLink to="/products/skirt/#rum">Skirt Cafe Rum</NuxtLink>
       <NuxtLink to="/products/skirt/#brandey">Skirt Blended Brandey</NuxtLink>
       <NuxtLink to="/products/skirt/#gin">Skirt Dry Gin</NuxtLink>
-      <NuxtLink to="/products/rocklas">Rocklas Blended Whiskey</NuxtLink>
+      <NuxtLink to="/products/rocklas">Rocklas Blended Whisky</NuxtLink>
     </div>
   </footer>
 </template>

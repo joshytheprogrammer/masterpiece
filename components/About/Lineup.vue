@@ -1,6 +1,6 @@
 <template>
   <div class="lineup">
-    <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1663069739/masterpiece/bulk-pics-transformed_hleb7s.png" alt="">
+    <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1663069739/masterpiece/bulk-pics-transformed_hleb7s.png" alt="Masterpiece Logo">
   </div>
 </template>
 
