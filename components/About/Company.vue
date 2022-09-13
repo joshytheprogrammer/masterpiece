@@ -22,7 +22,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 5rem 1rem;
+  padding: 2.5rem 1rem;
 
   .copy {
     padding: 1rem;
@@ -50,6 +50,7 @@ export default {
 
   @media screen and (max-width: $medium){
     flex-direction: column-reverse;
+    padding: 2.5rem 0;
 
     .copy h2 {
       padding-top: 0;
