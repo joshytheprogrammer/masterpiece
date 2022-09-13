@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <h1>About this <span>Masterpiece</span></h1>
+    <h1>The making of a <span>Masterpiece</span></h1>
   </div>
 </template>
 
