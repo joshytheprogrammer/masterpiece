@@ -17,16 +17,16 @@
     </div>
     <div class="hub">
       <div class="item">
-        <p class="key">Head Office:</p>
+        <p class="key">Head Office</p>
         <p class="value">110 Ijesha Rd, Surulere 102215, Lagos</p>
       </div>
       <div class="item">
-        <p class="key">Call us:</p>
+        <p class="key">Call us</p>
         <p class="value">0800-600-0000</p>
         <p class="value">0700-825-586-6275</p>
       </div>
       <div class="item">
-        <p class="key">Email: </p>
+        <p class="key">Email</p>
         <p class="value">masterpiece@gmail.com</p>
       </div>
     </div>
@@ -133,11 +133,8 @@ export default {
     width: 500px;
     height: 700px;
     padding: 1rem;
-    // background: radial-gradient(#e9bf4c, #f8eec1, #be8121, #f3db7c, #cd951f);
     background: $dark;
-    // background-image: radial-gradient(at center center, $d-secondary 0%, $secondary 100%);
 
-    color: $d-secondary;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,6 +145,9 @@ export default {
       padding: 1rem 0;
 
       .key {
+        color: $d-secondary;
+        text-transform: uppercase;
+
         font: {
           size: 24px;
           weight: 700;
@@ -157,6 +157,8 @@ export default {
       }
 
       .value {
+        color: $light;
+
         font: {
           size: 18px;
           weight: 400;
