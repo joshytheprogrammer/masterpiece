@@ -149,8 +149,8 @@ export default {
         text-transform: uppercase;
 
         font: {
-          size: 24px;
-          weight: 700;
+          size: 28px;
+          weight: 500;
         }
 
         padding-bottom: 0.5rem;

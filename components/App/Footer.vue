@@ -7,7 +7,7 @@
       <p style="display: none;">This website was created by <a href="https://www.joshytheprogrammer.com">joshytheprogrammer</a></p>
     </div>
     <div class="links">
-      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/#">Home</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/products">Products</NuxtLink>
       <NuxtLink to="/gallery">Gallery</NuxtLink>
