@@ -4,19 +4,20 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'masterpiece',
-    htmlAttrs: {
-      lang: 'en'
-    },
+    title: 'Welcome to the world of masterpeice | Masterpiece',
+    prefix:"og: https://ogp.me/ns#",
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
+      { hid: 'description', name: 'description', content: 'From the makers of Kubanah Whisky, Skirt and Rocklas | Masterpiece' },
+      { name: 'format-detection', content: 'telephone=no' },
+      { property: 'og:site_name', content: "Masterpiece"},
+      { hid: 'og:title', property: 'og:title', content: 'Welcome to the world of masterpeice | Masterpiece'},
+      { hid: 'og:description', property: 'og:description', content: 'From the makers of Kubanah Whisky, Skirt and Rocklas | Masterpiece'},
+      { hid: 'og:image', property: 'og:image', content: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png'},
+      { hid: 'og:url', property: 'og:url', content: 'https://www.masterpiece.com'},
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
