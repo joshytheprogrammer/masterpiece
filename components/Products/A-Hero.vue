@@ -34,7 +34,7 @@ export default {
 
   .notes {
     padding: 2rem 1rem;
-    background: $trans-dark;
+    background: $dark;
 
     h2 {
       padding: 1rem 0;
@@ -65,6 +65,7 @@ export default {
   }
 
   .about {
+    padding: 1rem;
 
     h2 {
       padding: 1rem 0;
@@ -78,6 +79,14 @@ export default {
       font-size: 18px;
       font-weight: 400;
       line-height: 25px;
+    }
+  }
+
+  @media screen and (max-width: $medium){
+    display: block;
+
+    .about h2 {
+      font-size: 36px;
     }
   }
 }
