@@ -7,7 +7,7 @@
 
 <script>
 import Hero from "../../components/Products/Hero.vue"
-import Products from "../../components/Products/Product.vue"
+import Products from "../../components/Products/Products.vue"
 
 export default {
   components : {

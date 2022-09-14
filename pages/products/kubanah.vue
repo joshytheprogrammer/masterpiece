@@ -1,6 +1,6 @@
 <template>
   <div class="kubanah">
-    <PHero />
+    <PHero bgImg="https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_700/v1663079069/masterpiece/gradient-1_njsgde.png" />
   </div>
 </template>
 
