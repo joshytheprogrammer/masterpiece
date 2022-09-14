@@ -32,7 +32,7 @@ export default {
       bgImg: "https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_900,w_1920/v1663079069/masterpiece/gradient-1_njsgde.png",
       name: "Kubanah Whisky",
       pitch: "A longstanding customer favorite, Kubanah Whisky is a special blended whisky with a fresh oak aroma.",
-      description: "",
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quo odit commodi dolor quae cumque nesciunt magnam aspernatur? Eius error ratione ea? A at facilis deserunt! Ipsum quia quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quo odit commodi dolor quae cumque nesciunt magnam aspernatur? Eius error ratione ea? A at facilis deserunt! Ipsum quia quam impedit.",
       image: "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662985594/masterpiece/kubana-transparent_1_peuioc.png",
       features: {
         ingredients: 'Treated Water, Ethanol, Caramel, Malt Flavour and Whisky Flavour',
