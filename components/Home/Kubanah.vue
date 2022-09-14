@@ -6,7 +6,7 @@
       </div>
       <div class="_first">
         <h2>Kubanah Whisky</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit perspiciatis atque. Expedita, pariatur excepturi. Repellat, ducimus fuga cupiditate vero ullam, soluta deleniti saepe quae suscipit esse laborum nisi libero!</p>
+        <p>Kubanah Whisky flavoured spirit drink is a longstanding Whisky, with fresh oak aroma. Proven to be a market hot sale, customers find it very compatible with other mixtures. Customers like its soft finish, the classic bottle shape and the pure amber color.</p>
       </div>
     </div>
   </div>
