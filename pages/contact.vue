@@ -19,6 +19,11 @@ export default {
     Form,
     Maps,
     Socials
+  },
+  head() {
+    return {
+      title: 'Contact us | Welcome to Masterpiece'
+    }
   }
 }
 </script>
