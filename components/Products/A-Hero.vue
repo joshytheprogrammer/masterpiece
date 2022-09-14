@@ -4,12 +4,12 @@
       <h2>Some Interesting Notes</h2>
 
       <div class="features">
-        <span class="key">Ingredients: </span> <span class="value">Treated Water, Ethanol, Caramel, Malt Flavour and Whisky Flavour</span>
-        <span class="key">Aroma: </span> <span class="value">Guinness roast character subtly blended with African ginger, lemongrass and chilli.</span>
-        <span class="key">Flavour: </span> <span class="value"> A refreshing blend of natural African Herbs and Spices; ginger, lemongrass, vanilla, cola nut and chilli extracts.</span>
-        <span class="key">Palate: </span> <span class="value">Full rounded with the perfect balance of sweet leading to a spicy/ slight bitter finish.</span>
-        <span class="key">ABV: </span> <span class="value">40%</span>
-        <span class="key">Appearance: </span> <span class="value">A crisp black carbonated beer</span>
+        <span class="key">Ingredients: </span> <span class="value">{{ingredients}}</span>
+        <span class="key">Aroma: </span> <span class="value"> {{aroma}} </span>
+        <span class="key">Flavour: </span> <span class="value"> {{flavour}} </span>
+        <span class="key">Palate: </span> <span class="value"> {{palate}} </span>
+        <span class="key">ABV: </span> <span class="value"> {{abv}} </span>
+        <span class="key">Appearance: </span> <span class="value"> {{appearance}} </span>
       </div>
     </div>
     <div class="about">
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-
+  props: ["ingredients", "aroma", "flavour", "palate", "abv", "appearance"]
 }
 </script>
 
