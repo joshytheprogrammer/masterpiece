@@ -18,11 +18,12 @@
     <div class="hub">
       <div class="item">
         <p class="key">Head Office</p>
-        <p class="value">110 Ijesha Rd, Surulere 102215, Lagos</p>
+        <p class="value">1, Masterpiece Road, Weighbridge Bus Stop, Papalanto, Ewekoro Local Government, Ogun State, Nigeria</p>
+        <p class="value">5, Yisa street, Itire, Ikate, Lagos</p>
       </div>
       <div class="item">
         <p class="key">Call us</p>
-        <p class="value">0800-600-0000</p>
+        <p class="value">0803-722-9196</p>
         <p class="value">0700-825-586-6275</p>
       </div>
       <div class="item">
@@ -158,9 +159,11 @@ export default {
 
       .value {
         color: $light;
+        line-height: 1.4;
+        padding-bottom: 0.4rem;
 
         font: {
-          size: 18px;
+          size: 16px;
           weight: 400;
         }
       }
