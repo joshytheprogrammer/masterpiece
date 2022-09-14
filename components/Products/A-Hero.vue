@@ -2,7 +2,6 @@
   <div class="after-hero">
     <div class="notes">
       <h2>Some Interesting Notes</h2>
-
       <div class="features">
         <span class="key">Ingredients: </span> <span class="value">{{features.ingredients}}</span>
         <span class="key">Aroma: </span> <span class="value"> {{features.aroma}} </span>
@@ -62,6 +61,23 @@ export default {
         font-weight: 400;
         line-height: 25px;
       }
+    }
+  }
+
+  .about {
+
+    h2 {
+      padding: 1rem 0;
+      font-size: 48px;
+      font-weight: 500;
+      color: $secondary;
+    }
+
+    p {
+      padding: 0.6rem 0;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
     }
   }
 }
