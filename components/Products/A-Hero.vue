@@ -24,11 +24,11 @@ export default {
     padding: 1rem;
     background: $trans-dark;
     text-align: center;
-    
+
 
     h2 {
       padding: 1rem 0;
-      font-size: 48px;
+      font-size: 40px;
       font-weight: 400;
       color: $secondary;
     }
