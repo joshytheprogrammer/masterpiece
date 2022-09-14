@@ -12,13 +12,13 @@ export default {
   },
   head() {
     return {
-      title: 'Kubanah Whisky | Masterpiece Flavoured Spirit Drink.',
+      title: 'Skirt Rum | Masterpiece Flavoured Spirit Drink.',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
           hid: 'description',
           name: 'description',
-          content: 'A blend of grain spirits and scotch malts for exquisite smoothness. Masterpiece Flavoured Spirit Drink'
+          content: ''
         }
       ]
     }
