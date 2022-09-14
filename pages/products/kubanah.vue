@@ -1,15 +1,18 @@
 <template>
   <div class="kubanah">
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
-    
+    <AHero />
   </div>
 </template>
 
 <script>
 import PHero from "../../components/Products/P-Hero.vue"
+import AHero from "../../components/Products/A-Hero.vue"
+
 export default {
   components: {
-    PHero
+    PHero,
+    AHero
   },
   head() {
     return {
