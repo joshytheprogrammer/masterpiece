@@ -1,12 +1,18 @@
 <template>
   <div class="p-hero" :style="'background-image: url('+bgImg+');'" >
-
+    <div class="_pitch">
+      <h1>{{name}}</h1>
+      <p>{{pitch}}</p>
+    </div>
+    <div class="_img">
+      <img :src="image" :alt="'Masterpiece - '+ name">
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["bgImg"]
+  props: ["bgImg", "name", "pitch", "image"]
 }
 </script>
 
@@ -19,6 +25,16 @@ export default {
   height: 900px;
   max-width: 100%;
 
+  display: flex;
+  justify-content: space-around;
+  
 
+  ._pitch {
+
+  }
+
+  ._img {
+
+  }
 }
 </style>
