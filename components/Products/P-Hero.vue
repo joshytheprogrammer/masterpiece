@@ -52,17 +52,22 @@ export default {
 
     img {
       width: 100%;
-      height: 628px;
+      height: 568px;
       object-fit: contain;
     }
   }
 
   @media screen and (max-width: $medium){
+    height: 600px;
     flex-direction: column-reverse;
 
     ._pitch {
       display: none;
       max-width: 100%;
+    }
+
+    ._img img {
+      height: 428px;
     }
   }
 }
