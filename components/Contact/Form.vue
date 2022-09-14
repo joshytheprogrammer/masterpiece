@@ -146,7 +146,7 @@ export default {
 
       .key {
         color: $secondary;
-        text-transform: uppercase;
+        text-transform: capitalize;
 
         font: {
           size: 28px;
