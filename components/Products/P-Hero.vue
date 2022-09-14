@@ -12,6 +12,13 @@ export default {
 
 <style lang="scss" scoped>
 .p-hero {
+  padding: 1rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: $dark;
+  height: 900px;
+  max-width: 100%;
+
 
 }
 </style>
