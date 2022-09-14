@@ -18,12 +18,13 @@ export default {
 <style lang="scss" scoped>
 .after-hero {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 2fr;
 
   .notes {
     padding: 1rem;
     background: $trans-dark;
-
+    text-align: center;
+    
 
     h2 {
       padding: 1rem 0;
