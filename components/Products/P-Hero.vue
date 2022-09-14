@@ -57,6 +57,13 @@ export default {
     }
   }
 
-  
+  @media screen and (max-width: $medium){
+    flex-direction: column-reverse;
+
+    ._pitch {
+      display: none;
+      max-width: 100%;
+    }
+  }
 }
 </style>

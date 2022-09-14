@@ -5,7 +5,7 @@
       <div class="logo">
         <NuxtLink to="/#">
           <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png" alt="Masterpiece Logo">
-          <h2>M.P MASTERPIECE</h2>
+          <h2>MASTERPIECE</h2>
         </NuxtLink>
       </div>
       <!-- The Menu Section -->
