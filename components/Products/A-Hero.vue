@@ -33,6 +33,7 @@ export default {
   grid-template-columns: 1.5fr 2fr;
 
   .notes {
+    width: 100%;
     padding: 2rem 1rem;
     background: $dark;
 
