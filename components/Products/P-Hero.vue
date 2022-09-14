@@ -26,15 +26,37 @@ export default {
   max-width: 100%;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  
+  align-items: center;
+  text-align: center;
 
   ._pitch {
+    max-width: 33.3%;
+    color: $light;
 
+    h1 {
+      margin-bottom: 1.875rem;
+      font-size: 3.75rem;
+      line-height: 4.375rem;
+      letter-spacing: .0375rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.8;
+    }
   }
 
   ._img {
 
+    img {
+      width: 100%;
+      height: 628px;
+      object-fit: contain;
+    }
   }
+
+  
 }
 </style>
