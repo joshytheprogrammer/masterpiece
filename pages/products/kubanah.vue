@@ -1,6 +1,7 @@
 <template>
   <div class="kubanah">
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
+    
   </div>
 </template>
 
