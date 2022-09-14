@@ -5,7 +5,7 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos harum sequi esse autem, nam reiciendis commodi! Ad, omnis quod esse dolore mollitia earum. Ex quo repudiandae quidem nostrum autem!</p>
     </div>
     <div class="_img">
-      <img src="https://images.unsplash.com/photo-1580397581145-cdb6a35b7d3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2230&q=80" alt="our-company-about-image">
+      <img src="https://images.unsplash.com/photo-1571104508999-893933ded431?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="our-company-about-image">
     </div>
   </div>
 </template>
