@@ -1,7 +1,7 @@
 <template>
   <div class="kubanah">
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
-    <AHero :features="features" />
+    <AHero :features="features" :name="name" :desc="description" />
   </div>
 </template>
 
@@ -32,6 +32,7 @@ export default {
       bgImg: "https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_900,w_1920/v1663079069/masterpiece/gradient-1_njsgde.png",
       name: "Kubanah Whisky",
       pitch: "A longstanding customer favorite, Kubanah Whisky is a special blended whisky with a fresh oak aroma.",
+      description: "",
       image: "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662985594/masterpiece/kubana-transparent_1_peuioc.png",
       features: {
         ingredients: 'Treated Water, Ethanol, Caramel, Malt Flavour and Whisky Flavour',

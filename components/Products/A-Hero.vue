@@ -13,20 +13,24 @@
       </div>
     </div>
     <div class="about">
-      <h2>About </h2>
+      <h2>About {{name}} </h2>
+      <p>{{desc}}</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["features"]
+  props: ["features", "name", "desc"]
 }
 </script>
 
 <style lang="scss" scoped>
 .after-hero {
   display: grid;
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
   grid-template-columns: 1.5fr 2fr;
 
   .notes {
