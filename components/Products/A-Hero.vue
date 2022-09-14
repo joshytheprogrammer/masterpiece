@@ -4,23 +4,23 @@
       <h2>Some Interesting Notes</h2>
 
       <div class="features">
-        <span class="key">Ingredients: </span> <span class="value">{{ingredients}}</span>
-        <span class="key">Aroma: </span> <span class="value"> {{aroma}} </span>
-        <span class="key">Flavour: </span> <span class="value"> {{flavour}} </span>
-        <span class="key">Palate: </span> <span class="value"> {{palate}} </span>
-        <span class="key">ABV: </span> <span class="value"> {{abv}} </span>
-        <span class="key">Appearance: </span> <span class="value"> {{appearance}} </span>
+        <span class="key">Ingredients: </span> <span class="value">{{features.ingredients}}</span>
+        <span class="key">Aroma: </span> <span class="value"> {{features.aroma}} </span>
+        <span class="key">Flavour: </span> <span class="value"> {{features.flavour}} </span>
+        <span class="key">Palate: </span> <span class="value"> {{features.palate}} </span>
+        <span class="key">ABV: </span> <span class="value"> {{features.abv}} </span>
+        <span class="key">Appearance: </span> <span class="value"> {{features.app}} </span>
       </div>
     </div>
     <div class="about">
-
+      <h2>About </h2>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["ingredients", "aroma", "flavour", "palate", "abv", "appearance"]
+  props: ["features"]
 }
 </script>
 

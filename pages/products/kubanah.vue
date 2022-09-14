@@ -1,7 +1,7 @@
 <template>
   <div class="kubanah">
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
-    <AHero :abv="features.abv" :appearance="features.app" :aroma="features.aroma" :flavour="features.flavour" :ingredients="features.ingredients" :palate="features.palate" />
+    <AHero :features="features" />
   </div>
 </template>
 
