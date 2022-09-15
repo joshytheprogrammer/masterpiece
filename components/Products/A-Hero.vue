@@ -88,9 +88,18 @@ export default {
     display: block;
     // text-align: center;
 
-    .about h2 {
-      font-size: 36px;
+    .notes {
+      padding: 1rem;
     }
+
+    .about {
+      padding: 1rem;
+
+      h2 {
+        font-size: 36px;
+      }
+    }
+
   }
 }
 </style>

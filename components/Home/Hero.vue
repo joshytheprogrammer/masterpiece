@@ -78,7 +78,7 @@ export default {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: $dark;
-    background-position: center;
+    // background-position: center;
     object-fit: fill;
     height: 900px;
     max-width: 100%;
@@ -112,7 +112,7 @@ export default {
 
   @media screen and (max-width: $m-large) {
     .content {
-      height: 600px;
+      height: 570px;
 
       ._pitch {
         height: 100%;
