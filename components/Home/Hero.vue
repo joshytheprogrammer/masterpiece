@@ -14,7 +14,8 @@ export default {
     return {
       images: [],
       backgroundImage: "",
-      currentNo: 0
+      currentNo: 0,
+      width: 720,
     }
   },
   mounted() {
@@ -36,6 +37,9 @@ export default {
       this.currentNo++
     },
     loadImages() {
+      // Call functions
+      this.checkMobileWidth()
+
       this.images = []
 
       let desktopImages = [
@@ -43,13 +47,16 @@ export default {
       ]
 
       let mobileImages = [
-        "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662543202/masterpiece/MODO7289_qqhhe6_1f1e80.jpg",
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662543202/masterpiece/MODO7289_qqhhe6_1f1e80.jpg", 'https://res.cloudinary.com/dsgvwxygr/image/upload/e_grayscale,c_scale,w_'+this.width+'/v1662995052/masterpiece/MODO6292_qgmz5y.jpg'
       ]
 
       this.testMobile() ? this.images = desktopImages : this.images = mobileImages
     },
     testMobile() {
       return window.innerWidth > 768
+    },
+    checkMobileWidth() {
+      this.width = window.innerWidth + 10
     }
   },
   unmounted() {
