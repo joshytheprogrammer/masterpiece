@@ -85,6 +85,7 @@ export default {
 
   @media screen and (max-width: $medium){
     display: block;
+    text-align: center;
 
     .about h2 {
       font-size: 36px;
