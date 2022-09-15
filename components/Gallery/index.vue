@@ -303,9 +303,9 @@ export default {
     margin: 0 1.5rem 1.5rem 0;
     display: inline-block;
     width: 100%;
-    border: solid 2px $dark;
+    border: solid 2px $grey;
     padding: 5px;
-    box-shadow: 5px 5px 5px $trans-dark;
+    box-shadow: 3px 3px 3px $grey;
     border-radius: 5px;
     transition: all .25s ease-in-out;
 

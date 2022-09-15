@@ -13,7 +13,7 @@ export default {
 <style lang="scss" scoped>
 .lineup {
   background: $dark;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid $grey;
 
   img {
     width: 100%;
