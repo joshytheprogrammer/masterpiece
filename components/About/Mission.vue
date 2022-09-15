@@ -1,8 +1,8 @@
 <template>
   <div class="mission">
-    <div class="_img">
+    <!-- <div class="_img">
       <img src="https://images.unsplash.com/photo-1522756890800-ac12d130a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="our-mission-about-image">
-    </div>
+    </div> -->
     <div class="copy">
       <h2>Our Mission</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos harum sequi esse autem, nam reiciendis commodi! Ad, omnis quod esse dolore mollitia earum. Ex quo repudiandae quidem nostrum autem!</p>
@@ -26,6 +26,11 @@ export default {
 
   .copy {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
 
     h2 {
       font-size: 48px;

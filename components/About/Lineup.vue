@@ -12,14 +12,12 @@ export default {
 
 <style lang="scss" scoped>
 .lineup {
-  padding-bottom: 2rem;
+  background: $dark;
 
   img {
     width: 100%;
     height: 500px;
     object-fit: contain;
-
-    background: $dark;
     padding: 2rem 0;
   }
 }

@@ -13,7 +13,8 @@ export default {
 <style lang="scss" scoped>
 .hero {
   @include normal-hero-styles;
-  background: radial-gradient(at center center, $trans-dark 0%, $dark 100%);
+  // background: radial-gradient(at center center, $trans-dark 0%, $dark 100%);
+  background: $dark;
 
   h1 {
     text-shadow: 2px 3px 1px $trans-dark;

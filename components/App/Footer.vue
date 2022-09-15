@@ -7,6 +7,7 @@
       <p style="display: none;">This website was created by <a href="https://www.joshytheprogrammer.com">joshytheprogrammer</a></p>
     </div>
     <div class="links">
+      <hr>
       <NuxtLink to="/#">Home</NuxtLink>
       <hr>
       <NuxtLink to="/about">About</NuxtLink>
@@ -16,7 +17,7 @@
       <NuxtLink to="/gallery">Gallery</NuxtLink>
       <hr>
       <NuxtLink to="/contact">Contact</NuxtLink>
-      <!-- <NuxtLink to="/find-us">Our locations</NuxtLink> -->
+      <hr>
     </div>
     <div class="links">
       <NuxtLink to="/products/kubanah">Kubanah Whisky</NuxtLink>
