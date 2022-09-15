@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="menuItems" v-if="isMobile && isOpen">
-      <Menu />
+      <Menu  />
     </div>
   </nav>
 </template>

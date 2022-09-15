@@ -11,7 +11,6 @@
 
 <style lang="scss" scoped>
 .links {
-
   a {
     text-decoration: none;
     text-transform: uppercase;
