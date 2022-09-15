@@ -1,7 +1,7 @@
 <template>
   <div class="links">
     <!-- Make sure to use css to differentiate between mobile and  -->
-    <NuxtLink to="/#">Home</NuxtLink>
+    <!-- <NuxtLink to="/#">Home</NuxtLink> -->
     <NuxtLink to="/about">About</NuxtLink>
     <NuxtLink to="/products">Products</NuxtLink>
     <NuxtLink to="/gallery">Gallery</NuxtLink>

@@ -16,7 +16,7 @@ export default {
     Hero,
     Product,
     Kubanah
-  }
+  },
 }
 </script>
 
