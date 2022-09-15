@@ -63,6 +63,8 @@ export default {
       }
 
       a {
+        display: block;
+        width: fit-content;
         padding: 1rem 2rem;
         background: radial-gradient(at center center, $secondary 0%, $secondary 100%);
         cursor: pointer;
