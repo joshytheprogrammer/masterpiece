@@ -47,7 +47,7 @@ export default {
       ]
 
       let mobileImages = [
-        "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662543202/masterpiece/MODO7289_qqhhe6_1f1e80.jpg", 'https://res.cloudinary.com/dsgvwxygr/image/upload/e_grayscale,c_scale,w_'+this.width+'/v1662995052/masterpiece/MODO6292_qgmz5y.jpg'
+        'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662996191/masterpiece/MODO6730_ppsl35.jpg', ''
       ]
 
       this.testMobile() ? this.images = desktopImages : this.images = mobileImages
@@ -104,7 +104,8 @@ export default {
 
   @media screen and (max-width: $m-large) {
     .content {
-      height: 700px;
+      height: 658px;
+
       ._pitch {
         height: 100%;
 
@@ -119,7 +120,6 @@ export default {
   @media screen and (max-width: $medium) {
     .content {
       display: block;
-      height: 500px;
 
       ._img {
         display: none;
@@ -127,6 +127,9 @@ export default {
 
       ._pitch {
         h1 {
+          color: $light;
+
+          text-shadow: 2px 3px 1px $dark;
           font-size: 46px;
         }
       }
