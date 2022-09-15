@@ -13,12 +13,13 @@ export default {
 <style lang="scss" scoped>
 .lineup {
   background: $dark;
+  border-bottom: 2px solid grey;
 
   img {
     width: 100%;
     height: 500px;
     object-fit: contain;
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
 }
 </style>

@@ -19,7 +19,7 @@
       <NuxtLink to="/contact">Contact</NuxtLink>
       <hr>
     </div>
-    <div class="links">
+    <div class="links p">
       <NuxtLink to="/products/kubanah">Kubanah Whisky</NuxtLink>
       <NuxtLink to="/products/skirt-rum">Skirt Cafe Rum</NuxtLink>
       <NuxtLink to="/products/skirt-brandey">Skirt Blended Brandey</NuxtLink>
@@ -98,26 +98,33 @@ footer {
   }
 
   @media screen and (max-width: $medium) {
-    display: block;
-    // display: grid;
-    // grid-template-columns: 1fr 1fr;
-
-    hr {
-      display: block;
-    }
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2rem;
 
     .links {
+      width: 40%;
+
       a {
-        padding: 15px 0;
+        padding: 8px 0;
         width: 100%;
-        text-align: center;
+        text-align: left;
       }
+    }
+
+    .links.p {
+
+      a {
+        text-align: right;
+      }
+      width: 60%;
     }
 
     .finisher {
       width: 100%;
       text-align: center;
-      padding: 18px 0;
+      padding: 18px 1rem;
     }
   }
 }
