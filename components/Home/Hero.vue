@@ -56,7 +56,7 @@ export default {
         'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662997496/masterpiece/MODO6694_emtcne.jpg'
       ]
 
-      this.testMobile() ? this.images = desktopImages : this.images = desktopImages
+      this.testMobile() ? this.images = desktopImages : this.images = mobileImages
     },
     testMobile() {
       return window.innerWidth > 768
