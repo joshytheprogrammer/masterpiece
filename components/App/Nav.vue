@@ -42,6 +42,11 @@ export default {
       isOpen: false,
     }
   },
+  watch: {
+    '$route': function (){
+      this.isOpen = false
+    }
+  },
   mounted() {
     this.checkMobile()
     window.addEventListener("resize", this.checkMobile);
