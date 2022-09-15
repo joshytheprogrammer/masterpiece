@@ -47,7 +47,7 @@ export default {
       ]
 
       let mobileImages = [
-        'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662996191/masterpiece/MODO6730_ppsl35.jpg', ''
+        'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662996191/masterpiece/MODO6730_ppsl35.jpg', 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662995053/masterpiece/MODO6477_twchpy.jpg', 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662995052/masterpiece/MODO6404_jpndzn.jpg', 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662995052/masterpiece/MODO6333_nzytbt.jpg', 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662997496/masterpiece/MODO6694_emtcne.jpg'
       ]
 
       this.testMobile() ? this.images = desktopImages : this.images = mobileImages
