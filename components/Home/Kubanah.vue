@@ -59,7 +59,6 @@ export default {
         font-size: 60px;
 
         color: inherit;
-        text-shadow: 1px 1px $dark;
       }
 
       p {

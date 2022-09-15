@@ -56,7 +56,6 @@ export default {
         font-size: 60px;
 
         color: $secondary;
-        text-shadow: 1px 1px $dark;
       }
 
       p {
