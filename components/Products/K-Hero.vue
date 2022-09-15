@@ -17,9 +17,14 @@ export default {
 .k-hero {
   // margin-top: 100px;
 
- #vbg {
-  width: 100vw;
-  height: 700px;
- }
+  #vbg {
+    width: 100vw;
+    object-fit: cover;
+    height: 900px;
+  }
+
+  @media screen and (max-width: $medium){
+
+  }
 }
 </style>

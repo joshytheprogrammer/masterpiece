@@ -1,7 +1,7 @@
 <template>
   <div class="kubanah">
-    <KHero />
-    <!-- <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" /> -->
+    <!-- <KHero /> -->
+    <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
     <AHero :features="features" :name="name" :desc="description" />
   </div>
 </template>
@@ -32,7 +32,7 @@ export default {
   },
   data() {
     return {
-      bgImg: "https://img.izismile.com/img/img6/20130214/1000/beautiful_animations_part_10_10.gif",
+      bgImg: "https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_900,w_1920/v1663079069/masterpiece/gradient-1_njsgde.png",
       name: "Kubanah Whisky",
       pitch: "A longstanding customer favorite, Kubanah Whisky is a special blended whisky with a fresh oak aroma.",
       description: "Kubanah Whisky flavoured spirit drink is a longstanding Whisky, with fresh oak aroma. Proven to be a market hot sale, customers find it very compatible with other mixtures. Customers like its soft finish, the classic bottle shape and the pure amber color. Being classic always means being simple. In a changing world it is simple and worthwhile to follow your heart and bravely go for your dream.",
