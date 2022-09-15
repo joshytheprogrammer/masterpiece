@@ -104,7 +104,7 @@ export default {
 
   @media screen and (max-width: $m-large) {
     .content {
-      height: 658px;
+      height: 600px;
 
       ._pitch {
         height: 100%;
