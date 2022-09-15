@@ -43,7 +43,7 @@ export default {
       this.images = []
 
       let desktopImages = [
-        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_crop,h_968/v1662190088/masterpiece/MODO7364_hn0pra.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662457782/masterpiece/MODO7289_zxypmq.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662987910/masterpiece/bg-img-3_wigjxc.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1280/v1663076183/masterpiece/_DSC8647_kg1c1o.jpg"
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_crop,h_968/v1662190088/masterpiece/MODO7364_hn0pra.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662457782/masterpiece/MODO7289_zxypmq.jpg", "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1025/v1662987910/masterpiece/bg-img-3_wigjxc.jpg"
       ]
 
       let mobileImages = [
@@ -56,7 +56,7 @@ export default {
         'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,w_'+this.width+'/v1662997496/masterpiece/MODO6694_emtcne.jpg'
       ]
 
-      this.testMobile() ? this.images = desktopImages : this.images = mobileImages
+      this.testMobile() ? this.images = desktopImages : this.images = desktopImages
     },
     testMobile() {
       return window.innerWidth > 768
@@ -78,6 +78,7 @@ export default {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: $dark;
+    background-position: center;
     object-fit: fill;
     height: 900px;
     max-width: 100%;
@@ -98,6 +99,7 @@ export default {
       h1 {
         font-size: 5vw;
         font-weight: 900;
+        text-shadow: 2px 3px 1px $dark;
 
         span {
           color: $secondary;
