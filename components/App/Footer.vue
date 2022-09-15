@@ -8,9 +8,13 @@
     </div>
     <div class="links">
       <NuxtLink to="/#">Home</NuxtLink>
+      <hr>
       <NuxtLink to="/about">About</NuxtLink>
+      <hr>
       <NuxtLink to="/products">Products</NuxtLink>
+      <hr>
       <NuxtLink to="/gallery">Gallery</NuxtLink>
+      <hr>
       <NuxtLink to="/contact">Contact</NuxtLink>
       <!-- <NuxtLink to="/find-us">Our locations</NuxtLink> -->
     </div>
@@ -39,6 +43,10 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+
+  hr {
+    display: none;
+  }
 
   .links {
     padding: 18px 0;
@@ -90,6 +98,10 @@ footer {
 
   @media screen and (max-width: $medium) {
     display: block;
+
+    hr {
+      display: block;
+    }
 
     .links {
       a {
