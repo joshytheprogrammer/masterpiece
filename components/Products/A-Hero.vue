@@ -30,11 +30,11 @@ export default {
   gap: 2rem;
   justify-items: center;
   align-items: center;
-  grid-template-columns: 1.5fr 2fr;
+  grid-template-columns: 1fr 1fr;
 
   .notes {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 5rem;
     background: $dark;
 
     h2 {
@@ -51,13 +51,14 @@ export default {
       .key {
         display: block;
         font-size: 18px;
+        color: $secondary;
         font-weight: 500;
         text-transform: uppercase;
       }
 
       .value {
         display: block;
-        padding: 0.6rem 0;
+        padding-bottom: 1rem;
         font-size: 18px;
         font-weight: 400;
         line-height: 25px;
@@ -66,7 +67,7 @@ export default {
   }
 
   .about {
-    padding: 1rem;
+    padding: 3rem;
 
     h2 {
       padding: 1rem 0;

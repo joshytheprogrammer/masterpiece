@@ -48,7 +48,7 @@ export default {
       width: 500px;
       font-size: 20px;
       text-align: center;
-      color: $light;
+      color: $dark;
 
       h2, p, a {
         padding-bottom: 24px;
@@ -58,7 +58,7 @@ export default {
         font-weight: 900;
         font-size: 60px;
 
-        color: inherit;
+        color: $light;
       }
 
       p {

@@ -98,6 +98,8 @@ footer {
 
   @media screen and (max-width: $medium) {
     display: block;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
 
     hr {
       display: block;

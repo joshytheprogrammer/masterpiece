@@ -27,7 +27,7 @@ export default {
   },
   data() {
     return {
-      bgImg: "https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_900,w_1920/v1663080559/masterpiece/gradient-4_talend.png",
+      bgImg: "https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_900,w_1920/v1663254784/masterpiece/yellow-gradient_e6qyth.png",
       name: "Skirt Blended Brandy",
       pitch: "Skirt Blended Brandy is distilled with fine spirits and aged by traditional skirt system in the oak butts.",
       description: "Skirt Brandy is distilled with fine spirits and aged by the traditional Skirt system in the oak butts. It retains its old tradition of high quality and is blended with flavour. It is a drink for all occasions whether on rocks, straight or mixed.",
