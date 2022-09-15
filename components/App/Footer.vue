@@ -2,7 +2,7 @@
   <footer>
     <div class="finisher">
       <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662566313/masterpiece/cleaned-bg-mp-logo_xwvneu.png" alt="">
-      <NuxtLink to="/"><h2>M.P Masterpiece</h2></NuxtLink>
+      <NuxtLink to="/#"><h2>M.P Masterpiece</h2></NuxtLink>
       <p>These products are not suitable for persons younger than 18. Please enjoy responsibly.</p>
       <p style="display: none;">This website was created by <a href="https://www.joshytheprogrammer.com">joshytheprogrammer</a></p>
     </div>
