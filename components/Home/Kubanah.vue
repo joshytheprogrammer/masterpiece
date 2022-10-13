@@ -2,7 +2,11 @@
   <div class="kubanah">
     <div class="product">
       <div class="_img">
-        <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662546173/masterpiece/MODO7446-transformed_mae3nd.png" alt="Kubanah Whiskey">
+        <!-- <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662546173/masterpiece/MODO7446-transformed_mae3nd.png" alt="Kubanah Whiskey"> -->
+        <video playsinline autoplay muted controls id="vbg">
+          <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.webm" type="video/webm">
+          <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.mp4" type="video/mp4">
+        </video>
       </div>
       <div class="_first">
         <h2>Kubanah Whisky</h2>
@@ -25,8 +29,11 @@ export default {
   background-image: radial-gradient(at center center, $secondary 0%, $secondary 100%);
 
   .product {
-    display: flex;
-    justify-content: space-around;
+    // display: flex;
+    // justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
     align-items: center;
 
     ._img {
@@ -41,6 +48,11 @@ export default {
         &:hover {
           scale: 1.1;
         }
+      }
+
+      video {
+        width: 100%;
+        // height: 628px;
       }
     }
 
