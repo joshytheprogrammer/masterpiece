@@ -1,12 +1,14 @@
 <template>
   <div class="kubanah">
     <div class="product">
-      <div class="_img">
-        <!-- <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662546173/masterpiece/MODO7446-transformed_mae3nd.png" alt="Kubanah Whiskey"> -->
+      <div class="_vid">
         <video playsinline autoplay muted controls id="vbg">
           <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.webm" type="video/webm">
           <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.mp4" type="video/mp4">
         </video>
+      </div>
+      <div class="_img">
+        <!-- <img src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662546173/masterpiece/MODO7446-transformed_mae3nd.png" alt="Kubanah Whiskey"> -->
       </div>
       <div class="_first">
         <h2>Kubanah Whisky</h2>
@@ -36,7 +38,14 @@ export default {
     justify-items: center;
     align-items: center;
 
+    ._vid {
+      #vbg {
+        width: 100%;
+      }
+    }
+
     ._img {
+      display: none;
       padding: 1rem;
 
       img {
@@ -49,15 +58,11 @@ export default {
           scale: 1.1;
         }
       }
-
-      video {
-        width: 100%;
-        // height: 628px;
-      }
     }
 
     ._first {
-      width: 500px;
+      // width: 500px;
+      padding: 0 1rem;
       font-size: 20px;
       text-align: center;
       color: $dark;
@@ -82,7 +87,20 @@ export default {
 
 @media screen and (max-width: $m-large) {
     .product {
+      display: block;
+
+      ._vid {
+        display: flex;
+        justify-content: center;
+
+        #vbg {
+          width: 90%;
+        }
+      }
+
       ._first {
+        width: 100%;
+        padding-top: 2rem;
         font-size: 18px;
 
         h2 {
@@ -100,6 +118,12 @@ export default {
     .product {
       flex-direction: column;
 
+      ._vid {
+        #vbg {
+          width: 100%;
+        }
+      }
+
       ._img {
         max-width: 100%;
 
@@ -107,10 +131,6 @@ export default {
           height: 428px;
           object-fit: contain;
         }
-      }
-
-      ._first {
-        width: 100%;
       }
     }
   }
