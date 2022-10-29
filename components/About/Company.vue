@@ -2,11 +2,8 @@
   <div class="our-company">
     <div class="copy">
       <h2>Our Company</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos harum sequi esse autem, nam reiciendis commodi! Ad, omnis quod esse dolore mollitia earum. Ex quo repudiandae quidem nostrum autem! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>M.P. Master Piece Ltd. was registered in Nigeria in the year 2012. Is one of the leading company that produces Alcoholic Beverages, as well-known brand such as Skirt Brandy, Kubanah Whisky and Many More.</p>
     </div>
-    <!-- <div class="_img">
-      <img src="https://images.unsplash.com/photo-1571104508999-893933ded431?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="our-company-about-image">
-    </div> -->
   </div>
 </template>
 
