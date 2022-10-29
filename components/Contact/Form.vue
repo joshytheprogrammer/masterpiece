@@ -18,17 +18,15 @@
     <div class="hub">
       <div class="item">
         <p class="key">Head Office</p>
-        <p class="value">1, Masterpiece Road, Weighbridge Bus Stop, Papalanto, Ewekoro Local Government, Ogun State, Nigeria</p>
-        <p class="value">5, Yisa street, Itire, Ikate, Lagos</p>
+        <p class="value">No. 1 Master Piece Road, Weighbridge Bus Stop, Papalanto, Ewekoro Local Government, Ogun State. Nigeria.</p>
       </div>
       <div class="item">
         <p class="key">Call us</p>
-        <p class="value">0803-722-9196</p>
-        <p class="value">0700-825-586-6275</p>
+        <p class="value">+234-803-722-9196</p>
       </div>
       <div class="item">
         <p class="key">Email</p>
-        <p class="value">masterpiece@gmail.com</p>
+        <p class="value"><a href="mailto:m.p.masterpiece25@gmail.com">Send us an email</a></p>
       </div>
     </div>
   </div>
@@ -161,6 +159,11 @@ export default {
         color: $light;
         line-height: 1.4;
         padding-bottom: 0.4rem;
+
+        a {
+          color: $light;
+          text-decoration-color: $light;
+        }
 
         font: {
           size: 16px;
