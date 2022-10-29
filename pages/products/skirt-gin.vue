@@ -29,7 +29,7 @@ export default {
     return {
       bgImg: "https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_900,w_1920/v1663254896/masterpiece/light-gradient_p8uix7.png",
       name: "Skirt Dry Gin",
-      pitch: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, facilis qui. Eius impedit sit suscipit fugiat, sunt perspiciatis necessitatibus praesentium.",
+      pitch: "Gin is a master piece, blended with the finest quality ingredients.",
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quo odit commodi dolor quae cumque nesciunt magnam aspernatur? Eius error ratione ea? A at facilis deserunt! Ipsum quia quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quo odit commodi dolor quae cumque nesciunt magnam aspernatur? Eius error ratione ea? A at facilis deserunt! Ipsum quia quam impedit.",
       image: "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987025/masterpiece/MODO7490-transformed_i2ef7m.png",
       features: {
