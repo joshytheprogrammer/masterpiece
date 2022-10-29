@@ -2,7 +2,7 @@
   <div class="kubanah">
     <!-- <KHero /> -->
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
-  <!-- KTVC -->
+    <KTVC />
     <AHero :features="features" :name="name" :desc="description" />
   </div>
 </template>
@@ -11,6 +11,7 @@
 import KHero from "../../components/Products/K-Hero.vue"
 import PHero from "../../components/Products/P-Hero.vue"
 import AHero from "../../components/Products/A-Hero.vue"
+import KTVC from "../../components/Products/KTVC.vue"
 
 export default {
   components: {
