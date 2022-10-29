@@ -34,7 +34,7 @@ export default {
     return {
       bgImg: "https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_900,w_1920/v1663255493/masterpiece/black-gradient_ja5vzs.png",
       name: "Kubanah Whisky",
-      pitch: "A longstanding customer favorite, Kubanah Whisky is a special blended whisky with a fresh oak aroma.",
+      pitch: "The Premium Quality Taste that keeps connecting you to your friends.",
       description: "Kubanah Whisky flavoured spirit drink is a longstanding Whisky, with fresh oak aroma. Proven to be a market hot sale, customers find it very compatible with other mixtures. Customers like its soft finish, the classic bottle shape and the pure amber color. Being classic always means being simple. In a changing world it is simple and worthwhile to follow your heart and bravely go for your dream.",
       image: "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662985594/masterpiece/kubana-transparent_1_peuioc.png",
       features: {
