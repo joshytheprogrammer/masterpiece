@@ -5,7 +5,9 @@
     </div> -->
     <div class="copy">
       <h2>Our Mission</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos harum sequi esse autem, nam reiciendis commodi! Ad, omnis quod esse dolore mollitia earum. Ex quo repudiandae quidem nostrum autem!</p>
+      <p>
+        At Masterpiece, we wish to be a diversified beverage company offering variety of products to our consumers. This is one of the many things that drive decision making within the company. Currently, we have Kubanah, Skirt, Rocklas and we aren't done yet. We will continue to create and promote premium quality and great-testing, healthy alcoholic beverages, that help bring the customers imagination into reality.
+      </p>
     </div>
   </div>
 </template>
