@@ -3,7 +3,7 @@
     <div class="header">
       <h2>KUBANAH TVC</h2>
     </div>
-    <video class="ktvc" playsinline controls poster="https://res.cloudinary.com/dsgvwxygr/image/upload/v1667051210/masterpiece/127A9835_r0thml.jpg">
+    <video class="ktvc" playsinline controls poster="https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987910/masterpiece/bg-img-3_wigjxc.jpg">
       <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.webm" type="video/webm">
       <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.mp4" type="video/mp4">
     </video>
@@ -19,7 +19,8 @@ export default {
 <style lang="scss" scoped>
 .tvc {
   display: block;
-  margin: 2rem 0;
+  padding: 2rem 0;
+  // background: $dark;
 
   .header {
     width: 100%;
@@ -50,6 +51,7 @@ export default {
     display: block;
     margin: auto;
     width: 720px;
+    height: 405px;
   }
 }
 </style>
