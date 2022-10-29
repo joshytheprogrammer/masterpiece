@@ -4,7 +4,13 @@
       <h2>KUBANAH TVC</h2>
     </div>
     <div class="bgVid">
-
+      <!-- <video class="ktvc" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+      </video> -->
+      <video class="ktvc" width="100%" height="700px" playsinline muted controls>
+        <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.webm" type="video/webm">
+        <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
 </template>
@@ -42,6 +48,12 @@ export default {
       h2 {
         font-size: 24px;
       }
+    }
+  }
+
+  .bgvid {
+    .ktvc {
+      width: 100%;
     }
   }
 }
