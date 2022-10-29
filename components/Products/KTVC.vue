@@ -1,7 +1,7 @@
 <template>
   <div class="tvc">
     <div class="header">
-      <h2>Kubanah TVC</h2>
+      <h2>KUBANAH TVC</h2>
     </div>
     <div class="bgVid">
 
@@ -23,12 +23,13 @@ export default {
     width: 100%;
     padding: 40px 1rem;
     background: $light;
-    // border-bottom: 1px solid $primary;
+    color: $secondary;
+    border-bottom: 1px solid $dark;
     text-align: center;
 
     h2 {
-      font-size: 36px;
-      font-weight: 400;
+      font-size: 3.75rem;
+      font-weight: 500;
     }
 
     @media screen and (max-width: $medium) {
