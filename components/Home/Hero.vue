@@ -49,7 +49,6 @@ export default {
         "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1662190088/masterpiece/MODO7364_hn0pra.jpg",
         "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1662457782/masterpiece/MODO7289_zxypmq.jpg",
         "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1667056438/masterpiece/bg-img-3_go8spm.jpg",
-        "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662996191/masterpiece/MODO6788_i1g5si.jpg"
       ]
 
       let mobileImages = [
