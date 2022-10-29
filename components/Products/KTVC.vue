@@ -3,17 +3,10 @@
     <div class="header">
       <h2>KUBANAH TVC</h2>
     </div>
-    <div class="under">
-      <div class="bgVid">
-        <div class="transcript">
-        <p></p>
-      </div>
-      <video class="ktvc" width="100%" playsinline controls poster="https://res.cloudinary.com/dsgvwxygr/image/upload/v1667051210/masterpiece/127A9835_r0thml.jpg">
-          <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.webm" type="video/webm">
-          <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
+    <video class="ktvc" playsinline controls poster="https://res.cloudinary.com/dsgvwxygr/image/upload/v1667051210/masterpiece/127A9835_r0thml.jpg">
+      <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.webm" type="video/webm">
+      <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.mp4" type="video/mp4">
+    </video>
   </div>
 </template>
 
@@ -26,11 +19,11 @@ export default {
 <style lang="scss" scoped>
 .tvc {
   display: block;
-  background: $light;
+  margin: 2rem 0;
 
   .header {
     width: 100%;
-    padding: 40px 1rem;
+    padding: 20px 1rem;
     color: $secondary;
     text-align: center;
 
@@ -52,17 +45,11 @@ export default {
     }
   }
 
-  .under {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-
-    .bgvid {
-
-      video {
-
-      }
-    }
+  video {
+    margin: 1rem 0;
+    display: block;
+    margin: auto;
+    width: 720px;
   }
 }
 </style>

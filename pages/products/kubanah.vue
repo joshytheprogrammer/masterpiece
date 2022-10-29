@@ -2,7 +2,7 @@
   <div class="kubanah">
     <!-- <KHero /> -->
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
-    <KTVC />
+    <!-- <KTVC /> -->
     <AHero :features="features" :name="name" :desc="description" />
   </div>
 </template>
