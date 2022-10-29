@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <div class="content" :style="'background-image: url('+backgroundImage+');'">
+    <div class="content" :style="'background-image: url('+backgroundImage+');'" @click="doSlideShow">
       <div class="_pitch">
         <h1>Experience the <span>Masterpiece</span></h1>
       </div>
@@ -24,7 +24,7 @@ export default {
 
     setInterval(() => {
       this.doSlideShow()
-    }, 5000)
+    }, 10000)
 
     window.addEventListener("resize", this.loadImages);
   },
@@ -36,6 +36,9 @@ export default {
 
       this.currentNo++
     },
+    nextImage() {
+      this.currentNo++
+    },
     loadImages() {
       // Call functions
       this.checkMobileWidth()
@@ -45,7 +48,8 @@ export default {
       let desktopImages = [
         "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1662190088/masterpiece/MODO7364_hn0pra.jpg",
         "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1662457782/masterpiece/MODO7289_zxypmq.jpg",
-        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1667056438/masterpiece/bg-img-3_go8spm.jpg"
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1667056438/masterpiece/bg-img-3_go8spm.jpg",
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662996191/masterpiece/MODO6788_i1g5si.jpg"
       ]
 
       let mobileImages = [
