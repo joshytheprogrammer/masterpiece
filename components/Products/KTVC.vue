@@ -3,14 +3,16 @@
     <div class="header">
       <h2>KUBANAH TVC</h2>
     </div>
-    <div class="bgVid">
-      <!-- <video class="ktvc" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
-        <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
-      </video> -->
-      <video class="ktvc" width="100%" height="700px" playsinline muted controls>
-        <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.webm" type="video/webm">
-        <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.mp4" type="video/mp4">
-      </video>
+    <div class="under">
+      <div class="bgVid">
+        <div class="transcript">
+        <p></p>
+      </div>
+      <video class="ktvc" width="100%" playsinline controls poster="https://res.cloudinary.com/dsgvwxygr/image/upload/v1667051210/masterpiece/127A9835_r0thml.jpg">
+          <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.webm" type="video/webm">
+          <source src="https://res.cloudinary.com/dsgvwxygr/video/upload/v1663245060/masterpiece/Kubanah_Whisky_Advert_with_first_ending.MP4_3_zjfx0e.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   </div>
 </template>
@@ -24,13 +26,12 @@ export default {
 <style lang="scss" scoped>
 .tvc {
   display: block;
+  background: $light;
 
   .header {
     width: 100%;
     padding: 40px 1rem;
-    background: $light;
     color: $secondary;
-    border-bottom: 1px solid $dark;
     text-align: center;
 
     h2 {
@@ -51,9 +52,16 @@ export default {
     }
   }
 
-  .bgvid {
-    .ktvc {
-      width: 100%;
+  .under {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    .bgvid {
+
+      video {
+
+      }
     }
   }
 }
