@@ -17,7 +17,8 @@ export default {
   components: {
     KHero,
     PHero,
-    AHero
+    AHero,
+    KTVC
   },
   head() {
     return {
