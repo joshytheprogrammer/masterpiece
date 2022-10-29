@@ -45,6 +45,7 @@ export default {
       let desktopImages = [
         "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1662190088/masterpiece/MODO7364_hn0pra.jpg",
         "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1662457782/masterpiece/MODO7289_zxypmq.jpg",
+        "https://res.cloudinary.com/dsgvwxygr/image/upload/c_fill,h_1220/v1667056438/masterpiece/bg-img-3_go8spm.jpg"
       ]
 
       let mobileImages = [
