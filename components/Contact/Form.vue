@@ -22,7 +22,7 @@
       </div>
       <div class="item">
         <p class="key">Call us</p>
-        <p class="value">+234-803-722-9196</p>
+        <p class="value"><a href="tel:+2348037229196">+234-803-722-9196</a></p>
       </div>
       <div class="item">
         <p class="key">Email</p>
