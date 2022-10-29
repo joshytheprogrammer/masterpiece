@@ -2,7 +2,7 @@
   <div class="our-company">
     <div class="copy">
       <h2>Our Company</h2>
-      <p>M.P. Master Piece Ltd. was registered in Nigeria in the year 2012. Is one of the leading company that produces Alcoholic Beverages, as well-known brand such as Skirt Brandy, Kubanah Whisky and Many More.</p>
+      <p>M.P. Master Piece Ltd. was registered in Nigeria in the year 2012. Is one of the leading company that produces Alcoholic Beverages, as well-known brand such as Skirt Brandy, Kubanah Whisky and Many More. As a company, we wish to become the leading Nigerian alcoholic beverage producer and providing to our end consumers with an excellent result. Through consistency and quality in the products and services we offer we will strive to exceed customers expectations and thereby increase profitability. This is our vision as a company, we will do it justice. JOIN US!!!</p>
     </div>
   </div>
 </template>
