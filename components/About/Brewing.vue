@@ -1,7 +1,7 @@
 <template>
   <div class="brewing">
     <h2>Brewing made perfect</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro delectus saepe recusandae assumenda reprehenderit natus animi nobis perferendis repellendus fuga fugit minima nemo magni provident sint, dolores nam, tenetur quia!</p>
+    <p>Here at Masterpiece, our drinks our brewed to perfection. We work hard to ensure we are using the best quality ingredients to bring you a taste of heaven. There is a reason we are called Masterpiece and it is because all of our products are a Masterpiece. </p>
   </div>
 </template>
 
