@@ -3,7 +3,7 @@
     <div class="product">
       <div class="_first">
         <h2> Skirt Rum </h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem ipsa cum, vel veniam totam! Iusto officia dolorum quisquam quam? </p>
+        <p> The brand that gives you the coffee and rum taste that is uniquely blended. </p>
         <NuxtLink to="/products/skirt-rum">Learn More</NuxtLink>
       </div>
       <div class="_img">
