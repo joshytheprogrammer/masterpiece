@@ -25,7 +25,7 @@ export default {
           id: 1,
           name: 'Skirt Cafe Rum',
           img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662651185/masterpiece/MODO7480-transformed_p30qym.png',
-          // bgImg: 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_700/v1663254896/masterpiece/light-gradient_p8uix7.png',
+          bgImg: 'none',
           slug: '/products/skirt-rum'
         },
         {
@@ -39,7 +39,7 @@ export default {
           id: 3,
           name: 'Skirt Dry Gin',
           img: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987025/masterpiece/MODO7490-transformed_i2ef7m.png',
-          // bgImg: 'https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_700/v1663254896/masterpiece/light-gradient_p8uix7.png',
+          bgImg: 'none',
           slug: '/products/skirt-gin'
         },
         {
