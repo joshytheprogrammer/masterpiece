@@ -27,11 +27,11 @@ export default {
           alt: 'img-3',
           link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662543202/masterpiece/MODO7289_qqhhe6_1f1e80.jpg'
         },
-        {
-          id: 3,
-          alt: 'img-4',
-          link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987910/masterpiece/bg-img-3_wigjxc.jpg'
-        },
+        // {
+        //   id: 3,
+        //   alt: 'img-4',
+        //   link: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987910/masterpiece/bg-img-3_wigjxc.jpg'
+        // },
         {
           id: 4,
           alt: 'img-5',
