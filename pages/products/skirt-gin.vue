@@ -30,14 +30,15 @@ export default {
       bgImg: "https://res.cloudinary.com/dsgvwxygr/image/upload/c_scale,h_900,w_1920/v1663254896/masterpiece/light-gradient_p8uix7.png",
       name: "Skirt Dry Gin",
       pitch: "Gin is a master piece, blended with the finest quality ingredients.",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quo odit commodi dolor quae cumque nesciunt magnam aspernatur? Eius error ratione ea? A at facilis deserunt! Ipsum quia quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quo odit commodi dolor quae cumque nesciunt magnam aspernatur? Eius error ratione ea? A at facilis deserunt! Ipsum quia quam impedit.",
+      description: "Skirt Dry Gin is a masterpiece crafted with the utmost care using the finest quality ingredients. With a 40% ABV, this gin presents a captivating aroma filled with juniper, citrus, and floral nuances. On the palate, it offers a well-balanced experience, blending the crispness of juniper with bright citrus, herbal undertones, and a delicate sweetness. Its light and refreshing character, combined with a clean and lingering finish, make Skirt Dry Gin a delightful choice for gin enthusiasts seeking a harmonious and top-quality spirit.",
       image: "https://res.cloudinary.com/dsgvwxygr/image/upload/v1662987025/masterpiece/MODO7490-transformed_i2ef7m.png",
       features: {
-        ingredients: '',
-        flavour: '',
-        palate: '',
+        ingredients: 'Juniper berries, Coriander seeds, Angelica root, Citrus peels, Orris root, Cardamom, Various botanicals and herbs',
+        aroma: 'Herbal and floral hints from the botanical blen',
+        flavour: 'Crisp and aromatic with prominent juniper notes',
+        palate: 'Light to medium-bodied with a refreshing mouthfeel',
         abv: '40%',
-        app: ''
+        app: 'Crystal-like brilliance'
       }
     }
   },
