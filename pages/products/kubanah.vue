@@ -3,7 +3,7 @@
     <!-- <KHero /> -->
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
     <KTVC />
-    <AHero :features="features" :name="name" :desc="description" />
+    <AHero :socials="socials" :features="features" :name="name" :desc="description" />
   </div>
 </template>
 
@@ -48,6 +48,11 @@ export default {
         abv: '42%',
         app: 'A pure amber colored whiskey.'
       },
+      socials: {
+        fb: 'https://www.facebook.com/kubanahwhisky',
+        ig: 'kubanahwhisky',
+        x: 'kubanahwhisky'
+      }
     }
   },
 }

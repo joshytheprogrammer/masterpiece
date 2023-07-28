@@ -1,7 +1,7 @@
 <template>
   <div class="kubanah">
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
-    <AHero :features="features" :name="name" :desc="description" />
+    <AHero :socials="socials"  :features="features" :name="name" :desc="description" />
   </div>
 </template>
 
@@ -39,6 +39,11 @@ export default {
         palate: 'Light to medium-bodied with a refreshing mouthfeel',
         abv: '40%',
         app: 'Crystal-like brilliance'
+      },
+      socials: {
+        fb: 'https://www.facebook.com/theskirtbrands',
+        ig: 'theskirtbrands',
+        x: 'theskirtbrands'
       }
     }
   },

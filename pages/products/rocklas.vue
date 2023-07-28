@@ -1,7 +1,7 @@
 <template>
   <div class="kubanah">
     <PHero :bgImg="bgImg" :name="name" :pitch="pitch" :image="image" />
-    <AHero :features="features" :name="name" :desc="description" />
+    <AHero :socials="socials"  :features="features" :name="name" :desc="description" />
   </div>
 </template>
 
@@ -39,6 +39,11 @@ export default {
         palate: 'Medium-bodied with a silky texture',
         abv: '40%',
         app: 'Golden amber color with hints of copper'
+      },
+      socials: {
+        fb: 'https://www.facebook.com/therocklaswhisky',
+        ig: 'rocklaswhisky',
+        x: 'rocklaswhisky'
       }
     }
   },

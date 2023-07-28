@@ -15,11 +15,11 @@
       <h2 data-v-6de2c6f8>Connect with us on</h2>
       <div class="features" data-v-6de2c6f8>
         <span class="key" data-v-6de2c6f8>Facebook: </span>
-        <a href="https://www.facebook.com/kubanahwhisky" class="value" data-v-6de2c6f8 style="text-decoration: none; color:white;" target="_blank">https://www.facebook.com/kubanahwhisky</a>
+        <a :href="socials.fb" class="value" data-v-6de2c6f8 style="text-decoration: none; color:white;" target="_blank">{{ socials.fb }}</a>
         <span class="key" data-v-6de2c6f8>Instagram: </span>
-        <a href="https://www.instagram.com/kubanahwhisky" class="value" style="text-decoration: none; color:white;" data-v-6de2c6f8 target="_blank"> @kubanahwhisky </a>
+        <a :href="'https://www.instagram.com/'+socials.ig" class="value" style="text-decoration: none; color:white;" data-v-6de2c6f8 target="_blank"> @{{socials.ig}} </a>
         <span class="key" data-v-6de2c6f8>Twitter: </span>
-        <a href="https://www.twitter.com/kubanahwhisky" class="value" data-v-6de2c6f8 style="text-decoration: none; color:white;" target="_blank"> @kubanahwhisky </a>
+        <a :href="'https://www.twitter.com/'+socials.x" class="value" data-v-6de2c6f8 style="text-decoration: none; color:white;" target="_blank"> @{{socials.x}} </a>
       </div>
     </div>
     <div class="about">
@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  props: ["features", "name", "desc"]
+  props: ["socials", "features", "name", "desc"]
   // props: ["name", "desc"]
 }
 </script>
