@@ -47,7 +47,7 @@ export default {
         palate: 'A Flavoured spirit drink.',
         abv: '42%',
         app: 'A pure amber colored whiskey.'
-      }
+      },
     }
   },
 }
