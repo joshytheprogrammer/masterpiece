@@ -52,6 +52,10 @@ export default {
     margin: auto;
     width: 720px;
     height: 405px;
+
+    @media screen and (max-width: $medium) {
+      width: 100%;
+    }
   }
 }
 </style>
