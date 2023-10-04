@@ -24,7 +24,7 @@
     </div>
     <div class="about">
       <h2>About {{name}} </h2>
-      <p>{{desc}}</p>
+      <p v-html="desc"></p>
     </div>
   </div>
 </template>
