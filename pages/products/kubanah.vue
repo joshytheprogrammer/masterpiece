@@ -62,19 +62,17 @@ export default {
         {
           title: 'The Kubanah Whisky Experience',
           content: `
-          <ol>
-            <li>
-              <b>Soft Finish</b>: One of the hallmarks of Kubanah Whisky is its remarkably soft finish. Each sip is not just a drink; it's a moment of sheer indulgence. The smoothness is a testament to the craftsmanship in every bottle.
-            </li>
+          <p>
+            <b>Soft Finish</b>: One of the hallmarks of Kubanah Whisky is its remarkably soft finish. Each sip is not just a drink; it's a moment of sheer indulgence. The smoothness is a testament to the craftsmanship in every bottle.
+          </p>
 
-            <li>
-              <b>Classic Bottle Design</b>: A timeless classic deserves an iconic bottle. Our bottle exudes sophistication and elegance, making it more than just a vessel for a spirit; it's a piece of art.
-            </li>
+          <p>
+            <b>Classic Bottle Design</b>: A timeless classic deserves an iconic bottle. Our bottle exudes sophistication and elegance, making it more than just a vessel for a spirit; it's a piece of art.
+          </p>
 
-            <li>
-              <b>Pure Amber Color</b>: The rich amber hue of Kubanah Whisky is a visual delight. It mirrors the depth and complexity of the liquid inside, promising a sensory journey that will tantalize your senses.
-            </li>
-          </ol>
+          <p>
+            <b>Pure Amber Color</b>: The rich amber hue of Kubanah Whisky is a visual delight. It mirrors the depth and complexity of the liquid inside, promising a sensory journey that will tantalize your senses.
+          </p>
           `,
           dark: 0,
         },
