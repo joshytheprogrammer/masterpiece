@@ -98,14 +98,15 @@ export default {
 
   @media screen and (max-width: $medium){
     display: block;
-    // text-align: center;
+    text-align: center;
 
     .notes {
       padding: 1rem;
     }
 
     .about {
-      padding: 1rem;
+      padding-top: 3rem;
+      border-bottom: 1px solid dark;
 
       h2 {
         font-size: 36px;
