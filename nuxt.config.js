@@ -6,6 +6,16 @@ export default {
   head: {
     title: 'Welcome to the world of masterpeice | Masterpiece',
     prefix:"og: https://ogp.me/ns#",
+    script: [
+      {
+        src: './script.js',
+        async: true
+      },
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-GXWG91EZTV',
+        async: true
+      },
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
