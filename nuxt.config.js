@@ -8,7 +8,7 @@ export default {
     prefix:"og: https://ogp.me/ns#",
     script: [
       {
-        src: './script.js',
+        src: '/script.js',
         async: true
       },
       {
