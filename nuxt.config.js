@@ -43,7 +43,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    'nuxt-animejs'
+    'nuxt-animejs',
+    '@nuxtjs/sanity/module'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,7 +52,6 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
-    '@nuxtjs/sanity/module'
   ],
 
   styleResources: {
@@ -60,6 +60,10 @@ export default {
       '@/assets/scss/mixins.scss'
     ],
     hoistUseStatements:  true,
+  },
+
+  sanity: {
+    minimal: true
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
