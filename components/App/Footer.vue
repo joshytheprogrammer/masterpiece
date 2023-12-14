@@ -16,6 +16,8 @@
       <hr>
       <NuxtLink to="/gallery">Gallery</NuxtLink>
       <hr>
+      <NuxtLink to="/blog">Blog</NuxtLink>
+      <hr>
       <NuxtLink to="/contact">Contact</NuxtLink>
       <hr>
     </div>
