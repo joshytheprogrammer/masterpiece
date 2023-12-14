@@ -4,8 +4,8 @@
     <div class="loading" v-show="!posts.length">
       <AppLoader />
     </div>
-    <div v-for="post in posts" :key="post._id" class="content">
-      <BlogCard :post="post" />
+    <div class="content">
+      <BlogCard v-for="post in posts" :key="post._id" :post="post" />
     </div>
   </div>
 </template>

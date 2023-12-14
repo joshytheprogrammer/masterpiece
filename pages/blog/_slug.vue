@@ -57,7 +57,6 @@ export default {
 
   .article {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     max-width: 800px;
     margin: 2rem auto;
@@ -69,8 +68,7 @@ export default {
       font-size: 2.1428571em;
       line-height: 1.2;
       font-weight: 800;
-      margin: 0 auto 0.8em;
-      max-width: 65ch;
+      margin: 0.5rem 0;
     }
 
     .desc {
