@@ -3,7 +3,6 @@
     <BlogHero />
     <div v-for="post in posts" :key="post._id" class="content">
       <BlogCard :post="post" />
-      <!-- <SanityContent :blocks="post.body" /> -->
     </div>
   </div>
 </template>
@@ -14,13 +13,17 @@ import { groq } from '@nuxtjs/sanity'
 const query = groq`*[_type == "post"]{ _id, mainImage, slug, title, _createdAt}`
 
 export default {
-  async asyncData({ $sanity }) {
+  data() {
+    return {
+      posts: []
+    }
+  },
+  async fetch() {
     try {
-      const posts = await $sanity.fetch(query)
-      return { posts }
+      const postsO = await this.$sanity.fetch(query)
+      this.posts = postsO
     } catch (error) {
       console.error('Error fetching posts:', error)
-      return { posts: [] }
     }
   },
 }
