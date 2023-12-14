@@ -1,6 +1,9 @@
 <template>
   <div>
     <BlogHero />
+    <div class="loading" v-show="!posts.length">
+      <AppLoader />
+    </div>
     <div v-for="post in posts" :key="post._id" class="content">
       <BlogCard :post="post" />
     </div>
@@ -31,6 +34,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.loading {
+  margin: 2rem auto;
+}
 .content {
   width: 90%;
   margin: 1rem auto;
