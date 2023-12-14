@@ -5,6 +5,7 @@
     <NuxtLink to="/about">About</NuxtLink>
     <NuxtLink to="/products">Products</NuxtLink>
     <NuxtLink to="/gallery">Gallery</NuxtLink>
+    <NuxtLink to="/blog">Blog</NuxtLink>
     <NuxtLink to="/contact">Contact</NuxtLink>
   </div>
 </template>
