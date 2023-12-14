@@ -3,10 +3,7 @@
     <BlogHero />
     <div v-for="post in posts" :key="post._id" class="content">
       <BlogCard :post="post" />
-      <BlogCard :post="post" />
-      <BlogCard :post="post" />
       <!-- <SanityContent :blocks="post.body" /> -->
-
     </div>
   </div>
 </template>
